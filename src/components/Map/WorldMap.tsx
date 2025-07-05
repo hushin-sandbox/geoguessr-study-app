@@ -1,4 +1,4 @@
-import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
+import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps';
 import { useAppStore } from '../../store/appStore';
 import { countries } from '../../data/countries';
 import { regionColors } from '../../data/regions';
@@ -6,7 +6,12 @@ import { regionColors } from '../../data/regions';
 const geoUrl =
   'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 
-export const WorldMap = () => {
+interface WorldMapProps {
+  position: { coordinates: [number, number]; zoom: number };
+  onPositionChange: (position: { coordinates: [number, number]; zoom: number }) => void;
+}
+
+export const WorldMap = ({ position, onPositionChange }: WorldMapProps) => {
   const { selectedCountry, selectCountry } = useAppStore();
 
   const handleCountryClick = (countryId: string) => {
@@ -40,7 +45,12 @@ export const WorldMap = () => {
           height: '100%',
         }}
       >
-        <Geographies geography={geoUrl}>
+        <ZoomableGroup
+          zoom={position.zoom}
+          center={position.coordinates}
+          onMoveEnd={onPositionChange}
+        >
+          <Geographies geography={geoUrl}>
           {({ geographies }) =>
             geographies.map((geo) => {
               const countryId = geo.id;
@@ -78,7 +88,8 @@ export const WorldMap = () => {
               );
             })
           }
-        </Geographies>
+          </Geographies>
+        </ZoomableGroup>
       </ComposableMap>
     </div>
   );
