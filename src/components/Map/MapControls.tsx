@@ -5,9 +5,11 @@ interface MapControlsProps {
   onZoomIn: () => void;
   onZoomOut: () => void;
   onReset: () => void;
+  showCountryNames: boolean;
+  onToggleCountryNames: () => void;
 }
 
-export const MapControls = ({ onZoomIn, onZoomOut, onReset }: MapControlsProps) => {
+export const MapControls = ({ onZoomIn, onZoomOut, onReset, showCountryNames, onToggleCountryNames }: MapControlsProps) => {
   return (
     <div className="absolute top-4 left-4 space-y-4">
       <div className="bg-white rounded-lg shadow-lg p-2 flex flex-col space-y-2">
@@ -31,6 +33,13 @@ export const MapControls = ({ onZoomIn, onZoomOut, onReset }: MapControlsProps) 
           title="リセット"
         >
           ⌂
+        </button>
+        <button
+          onClick={onToggleCountryNames}
+          className={`w-8 h-8 ${showCountryNames ? 'bg-green-500 hover:bg-green-600' : 'bg-gray-500 hover:bg-gray-600'} text-white rounded flex items-center justify-center text-xs`}
+          title={showCountryNames ? '国名を非表示' : '国名を表示'}
+        >
+          {showCountryNames ? 'A' : 'A'}
         </button>
       </div>
       <div className="bg-white rounded-lg shadow-lg p-4 max-w-xs">

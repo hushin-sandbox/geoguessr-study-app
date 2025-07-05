@@ -1,4 +1,4 @@
-import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps';
+import { ComposableMap, Geographies, Geography, ZoomableGroup, Annotation } from 'react-simple-maps';
 import { useAppStore } from '../../store/appStore';
 import { countries } from '../../data/countries';
 import { regionColors } from '../../data/regions';
@@ -9,9 +9,10 @@ const geoUrl =
 interface WorldMapProps {
   position: { coordinates: [number, number]; zoom: number };
   onPositionChange: (position: { coordinates: [number, number]; zoom: number }) => void;
+  showCountryNames?: boolean;
 }
 
-export const WorldMap = ({ position, onPositionChange }: WorldMapProps) => {
+export const WorldMap = ({ position, onPositionChange, showCountryNames = false }: WorldMapProps) => {
   const { selectedCountry, selectCountry } = useAppStore();
 
   const handleCountryClick = (countryId: string) => {
@@ -89,6 +90,37 @@ export const WorldMap = ({ position, onPositionChange }: WorldMapProps) => {
             })
           }
           </Geographies>
+          {showCountryNames && (
+            <>
+              {countries.filter(country => country.enabled).map(country => (
+                <Annotation
+                  key={country.id}
+                  subject={country.coordinates}
+                  dx={0}
+                  dy={0}
+                  connectorProps={{
+                    stroke: "none"
+                  }}
+                >
+                  <text
+                    x={0}
+                    y={0}
+                    textAnchor="middle"
+                    alignmentBaseline="middle"
+                    style={{
+                      fontFamily: "system-ui, sans-serif",
+                      fontSize: `${12 / position.zoom}px`,
+                      fontWeight: "bold",
+                      fill: "#1F2937",
+                      pointerEvents: "none"
+                    }}
+                  >
+                    {country.nameJa}
+                  </text>
+                </Annotation>
+              ))}
+            </>
+          )}
         </ZoomableGroup>
       </ComposableMap>
     </div>

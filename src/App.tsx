@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 function App() {
   const [mapPosition, setMapPosition] = useState({ coordinates: [0, 0], zoom: 1 });
+  const [showCountryNames, setShowCountryNames] = useState(false);
 
   const handleZoomIn = () => {
     setMapPosition(prev => ({ ...prev, zoom: Math.min(prev.zoom * 1.5, 8) }));
@@ -19,15 +20,25 @@ function App() {
     setMapPosition({ coordinates: [0, 0], zoom: 1 });
   };
 
+  const handleToggleCountryNames = () => {
+    setShowCountryNames(!showCountryNames);
+  };
+
   return (
     <div className="h-screen flex bg-gray-100">
       {/* 地図エリア */}
       <div className="flex-1 relative">
-        <WorldMap position={mapPosition} onPositionChange={setMapPosition} />
+        <WorldMap 
+          position={mapPosition} 
+          onPositionChange={setMapPosition} 
+          showCountryNames={showCountryNames}
+        />
         <MapControls 
           onZoomIn={handleZoomIn} 
           onZoomOut={handleZoomOut} 
-          onReset={handleReset} 
+          onReset={handleReset}
+          showCountryNames={showCountryNames}
+          onToggleCountryNames={handleToggleCountryNames}
         />
       </div>
       
