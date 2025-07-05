@@ -5,15 +5,18 @@ import { LanguagePanel } from './components/LanguageInfo/LanguagePanel';
 import { useState } from 'react';
 
 function App() {
-  const [mapPosition, setMapPosition] = useState({ coordinates: [0, 0], zoom: 1 });
-  const [showCountryNames, setShowCountryNames] = useState(false);
+  const [mapPosition, setMapPosition] = useState({
+    coordinates: [0, 0],
+    zoom: 1,
+  });
+  const [showCountryNames, setShowCountryNames] = useState(true);
 
   const handleZoomIn = () => {
-    setMapPosition(prev => ({ ...prev, zoom: Math.min(prev.zoom * 1.5, 8) }));
+    setMapPosition((prev) => ({ ...prev, zoom: Math.min(prev.zoom * 1.5, 8) }));
   };
 
   const handleZoomOut = () => {
-    setMapPosition(prev => ({ ...prev, zoom: Math.max(prev.zoom / 1.5, 1) }));
+    setMapPosition((prev) => ({ ...prev, zoom: Math.max(prev.zoom / 1.5, 1) }));
   };
 
   const handleReset = () => {
@@ -28,25 +31,25 @@ function App() {
     <div className="h-screen flex bg-gray-100">
       {/* 地図エリア */}
       <div className="flex-1 relative">
-        <WorldMap 
-          position={mapPosition} 
-          onPositionChange={setMapPosition} 
+        <WorldMap
+          position={mapPosition}
+          onPositionChange={setMapPosition}
           showCountryNames={showCountryNames}
         />
-        <MapControls 
-          onZoomIn={handleZoomIn} 
-          onZoomOut={handleZoomOut} 
+        <MapControls
+          onZoomIn={handleZoomIn}
+          onZoomOut={handleZoomOut}
           onReset={handleReset}
           showCountryNames={showCountryNames}
           onToggleCountryNames={handleToggleCountryNames}
         />
       </div>
-      
+
       {/* 国情報パネル */}
       <div className="w-96 border-l border-gray-200">
         <CountryPanel />
       </div>
-      
+
       {/* 言語情報サイドパネル */}
       <LanguagePanel />
     </div>
