@@ -5,7 +5,10 @@ import { LanguagePanel } from './components/LanguageInfo/LanguagePanel';
 import { useState } from 'react';
 
 function App() {
-  const [mapPosition, setMapPosition] = useState({
+  const [mapPosition, setMapPosition] = useState<{
+    coordinates: [number, number];
+    zoom: number;
+  }>({
     coordinates: [0, 0],
     zoom: 1,
   });
