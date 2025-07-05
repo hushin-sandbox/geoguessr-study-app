@@ -13,6 +13,7 @@ interface CountryDetailsProps {
 export const CountryDetails = ({ country }: CountryDetailsProps) => {
   const { userNotes, selectLanguage, updateCountryNote } = useAppStore();
   const languages = getLanguagesByCountry(country.id);
+  // TODO: world.json を不要にして countries に1本化したい
   const iso2 =
     world.find((c) => c.alpha3 === country.id.toLowerCase())?.alpha2 ||
     country.id.slice(0, 2).toLowerCase();
