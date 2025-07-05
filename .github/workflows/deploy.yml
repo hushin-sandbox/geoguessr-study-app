@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # またはデフォルトブランチ
+  workflow_dispatch:  # 手動トリガーを有効にする
 
 permissions:
   contents: read
