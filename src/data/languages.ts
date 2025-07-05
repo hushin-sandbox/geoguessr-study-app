@@ -1,0 +1,172 @@
+import { Language } from '../types';
+
+export const languages: Language[] = [
+  {
+    id: 'en',
+    name: 'English',
+    nameJa: '英語',
+    examples: ['Hello', 'Thank you', 'Good morning', 'Welcome'],
+    identificationFeatures: 'アルファベット文字、単語間のスペース、語順はSVO',
+    countries: ['US', 'GB', 'CA', 'AU', 'NZ', 'IE', 'ZA', 'KE', 'NG', 'IN', 'PK', 'BD', 'PH', 'MY', 'SG']
+  },
+  {
+    id: 'es',
+    name: 'Spanish',
+    nameJa: 'スペイン語',
+    examples: ['Hola', 'Gracias', 'Buenos días', 'Bienvenido'],
+    identificationFeatures: 'アルファベット文字、ñ、アクセント記号（á、é、í、ó、ú）',
+    countries: ['ES', 'MX', 'AR', 'CO', 'PE', 'VE', 'CL', 'EC', 'CU', 'BO', 'PY', 'UY', 'CR', 'PA', 'HN', 'NI', 'SV', 'GT', 'DO', 'GQ']
+  },
+  {
+    id: 'fr',
+    name: 'French',
+    nameJa: 'フランス語',
+    examples: ['Bonjour', 'Merci', 'Bonne journée', 'Bienvenue'],
+    identificationFeatures: 'アルファベット文字、アクセント記号（à、é、è、ç、ê、ô）',
+    countries: ['FR', 'BE', 'CH', 'CA', 'LU', 'MC', 'SN', 'ML', 'BF', 'NE', 'CI', 'GN', 'TD', 'CF', 'CM', 'GA', 'CG', 'CD', 'DJ', 'KM', 'MG', 'SC', 'VU', 'NC', 'PF']
+  },
+  {
+    id: 'de',
+    name: 'German',
+    nameJa: 'ドイツ語',
+    examples: ['Hallo', 'Danke', 'Guten Tag', 'Willkommen'],
+    identificationFeatures: 'アルファベット文字、ウムラウト（ä、ö、ü）、エスツェット（ß）',
+    countries: ['DE', 'AT', 'CH', 'LI', 'LU', 'BE']
+  },
+  {
+    id: 'it',
+    name: 'Italian',
+    nameJa: 'イタリア語',
+    examples: ['Ciao', 'Grazie', 'Buongiorno', 'Benvenuto'],
+    identificationFeatures: 'アルファベット文字、アクセント記号（à、è、é、ì、ò、ù）',
+    countries: ['IT', 'CH', 'SM', 'VA']
+  },
+  {
+    id: 'pt',
+    name: 'Portuguese',
+    nameJa: 'ポルトガル語',
+    examples: ['Olá', 'Obrigado', 'Bom dia', 'Bem-vindo'],
+    identificationFeatures: 'アルファベット文字、ティル（ã、õ）、アクセント記号',
+    countries: ['PT', 'BR', 'AO', 'MZ', 'GW', 'CV', 'ST', 'TL']
+  },
+  {
+    id: 'ru',
+    name: 'Russian',
+    nameJa: 'ロシア語',
+    examples: ['Привет', 'Спасибо', 'Доброе утро', 'Добро пожаловать'],
+    identificationFeatures: 'キリル文字、33文字のアルファベット',
+    countries: ['RU', 'BY', 'KZ', 'KG', 'MD', 'TJ', 'UZ', 'AM', 'AZ', 'GE']
+  },
+  {
+    id: 'ar',
+    name: 'Arabic',
+    nameJa: 'アラビア語',
+    examples: ['مرحبا', 'شكرا', 'صباح الخير', 'أهلا وسهلا'],
+    identificationFeatures: 'アラビア文字、右から左に書く、28文字のアルファベット',
+    countries: ['SA', 'EG', 'DZ', 'SD', 'IQ', 'MA', 'YE', 'SY', 'TN', 'JO', 'LY', 'LB', 'OM', 'KW', 'MR', 'AE', 'QA', 'BH', 'DJ', 'SO', 'KM', 'TD', 'ER']
+  },
+  {
+    id: 'zh',
+    name: 'Chinese',
+    nameJa: '中国語',
+    examples: ['你好', '谢谢', '早上好', '欢迎'],
+    identificationFeatures: '漢字、簡体字・繁体字、表意文字',
+    countries: ['CN', 'TW', 'HK', 'MO', 'SG', 'MY']
+  },
+  {
+    id: 'ja',
+    name: 'Japanese',
+    nameJa: '日本語',
+    examples: ['こんにちは', 'ありがとう', 'おはよう', 'いらっしゃい'],
+    identificationFeatures: 'ひらがな、カタカナ、漢字の3つの文字体系',
+    countries: ['JP']
+  },
+  {
+    id: 'ko',
+    name: 'Korean',
+    nameJa: '韓国語',
+    examples: ['안녕하세요', '감사합니다', '좋은 아침', '환영합니다'],
+    identificationFeatures: 'ハングル文字、音節ブロック構造',
+    countries: ['KR', 'KP']
+  },
+  {
+    id: 'hi',
+    name: 'Hindi',
+    nameJa: 'ヒンディー語',
+    examples: ['नमस्ते', 'धन्यवाद', 'सुप्रभात', 'स्वागत'],
+    identificationFeatures: 'デーヴァナーガリー文字、水平線（शिरोरेखा）',
+    countries: ['IN', 'NP', 'FJ']
+  },
+  {
+    id: 'th',
+    name: 'Thai',
+    nameJa: 'タイ語',
+    examples: ['สวัสดี', 'ขอบคุณ', 'สวัสดีตอนเช้า', 'ยินดีต้อนรับ'],
+    identificationFeatures: 'タイ文字、44の子音文字、32の母音記号',
+    countries: ['TH']
+  },
+  {
+    id: 'vi',
+    name: 'Vietnamese',
+    nameJa: 'ベトナム語',
+    examples: ['Xin chào', 'Cảm ơn', 'Chào buổi sáng', 'Chào mừng'],
+    identificationFeatures: 'ラテン文字、声調記号（á、à、ả、ã、ạ）',
+    countries: ['VN']
+  },
+  {
+    id: 'tr',
+    name: 'Turkish',
+    nameJa: 'トルコ語',
+    examples: ['Merhaba', 'Teşekkürler', 'Günaydın', 'Hoş geldiniz'],
+    identificationFeatures: 'ラテン文字、特殊文字（ç、ğ、ı、ö、ş、ü）',
+    countries: ['TR', 'CY']
+  },
+  {
+    id: 'pl',
+    name: 'Polish',
+    nameJa: 'ポーランド語',
+    examples: ['Cześć', 'Dziękuję', 'Dzień dobry', 'Witamy'],
+    identificationFeatures: 'ラテン文字、特殊文字（ą、ć、ę、ł、ń、ó、ś、ź、ż）',
+    countries: ['PL']
+  },
+  {
+    id: 'nl',
+    name: 'Dutch',
+    nameJa: 'オランダ語',
+    examples: ['Hallo', 'Dank je', 'Goedemorgen', 'Welkom'],
+    identificationFeatures: 'ラテン文字、二重母音（ij、ou、au、ei、ui）',
+    countries: ['NL', 'BE', 'SR', 'AW', 'CW', 'SX']
+  },
+  {
+    id: 'sv',
+    name: 'Swedish',
+    nameJa: 'スウェーデン語',
+    examples: ['Hej', 'Tack', 'God morgon', 'Välkommen'],
+    identificationFeatures: 'ラテン文字、特殊文字（å、ä、ö）',
+    countries: ['SE', 'FI']
+  },
+  {
+    id: 'no',
+    name: 'Norwegian',
+    nameJa: 'ノルウェー語',
+    examples: ['Hei', 'Takk', 'God morgen', 'Velkommen'],
+    identificationFeatures: 'ラテン文字、特殊文字（æ、ø、å）',
+    countries: ['NO']
+  },
+  {
+    id: 'da',
+    name: 'Danish',
+    nameJa: 'デンマーク語',
+    examples: ['Hej', 'Tak', 'God morgen', 'Velkommen'],
+    identificationFeatures: 'ラテン文字、特殊文字（æ、ø、å）',
+    countries: ['DK', 'GL']
+  }
+];
+
+export const getLanguageById = (id: string): Language | undefined => {
+  return languages.find(lang => lang.id === id);
+};
+
+export const getLanguagesByCountry = (countryId: string): Language[] => {
+  return languages.filter(lang => lang.countries.includes(countryId));
+};

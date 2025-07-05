@@ -1,0 +1,82 @@
+import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
+import { useAppStore } from '../../store/appStore';
+import { countries } from '../../data/countries';
+import { regionColors } from '../../data/regions';
+
+const geoUrl = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
+
+export const WorldMap = () => {
+  const { selectedCountry, selectCountry } = useAppStore();
+
+  const handleCountryClick = (countryId: string) => {
+    const country = countries.find(c => c.id === countryId);
+    if (country?.enabled) {
+      selectCountry(countryId);
+    }
+  };
+
+  const getCountryColor = (countryId: string) => {
+    const country = countries.find(c => c.id === countryId);
+    if (!country) return '#E5E7EB';
+    
+    if (!country.enabled) return '#9CA3AF';
+    
+    if (selectedCountry === countryId) return '#EF4444';
+    
+    return regionColors[country.region] || '#6B7280';
+  };
+
+  return (
+    <div className="w-full h-full">
+      <ComposableMap
+        projection="geoNaturalEarth1"
+        projectionConfig={{
+          scale: 120,
+          center: [0, 0]
+        }}
+        style={{
+          width: '100%',
+          height: '100%'
+        }}
+      >
+        <Geographies geography={geoUrl}>
+          {({ geographies }) =>
+            geographies.map((geo) => {
+              const countryId = geo.properties.ISO_A2;
+              const country = countries.find(c => c.id === countryId);
+              
+              return (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  fill={getCountryColor(countryId)}
+                  stroke="#FFFFFF"
+                  strokeWidth={0.5}
+                  style={{
+                    default: {
+                      outline: 'none',
+                      cursor: country?.enabled ? 'pointer' : 'default'
+                    },
+                    hover: {
+                      outline: 'none',
+                      fill: country?.enabled ? '#F59E0B' : getCountryColor(countryId)
+                    },
+                    pressed: {
+                      outline: 'none',
+                      fill: '#DC2626'
+                    }
+                  }}
+                  onClick={() => {
+                    if (country?.enabled) {
+                      handleCountryClick(countryId);
+                    }
+                  }}
+                />
+              );
+            })
+          }
+        </Geographies>
+      </ComposableMap>
+    </div>
+  );
+};
