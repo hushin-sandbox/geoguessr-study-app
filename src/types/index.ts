@@ -12,7 +12,7 @@ export enum Region {
 }
 
 export interface Country {
-  id: string; // ISO 3166-1 alpha-2
+  id: string; // ISO 3166-1 alpha-3
   name: string;
   nameJa: string;
   region: Region;

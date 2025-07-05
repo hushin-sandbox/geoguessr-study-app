@@ -3,6 +3,8 @@ import { getLanguagesByCountry } from '../../data/languages';
 import { regionLabels } from '../../data/regions';
 import { useAppStore } from '../../store/appStore';
 import { EditableNote } from './EditableNote';
+import 'flag-icons/css/flag-icons.min.css';
+import world from '../../data/world.json';
 
 interface CountryDetailsProps {
   country: Country;
@@ -11,6 +13,9 @@ interface CountryDetailsProps {
 export const CountryDetails = ({ country }: CountryDetailsProps) => {
   const { userNotes, selectLanguage, updateCountryNote } = useAppStore();
   const languages = getLanguagesByCountry(country.id);
+  const iso2 =
+    world.find((c) => c.alpha3 === country.id.toLowerCase())?.alpha2 ||
+    country.id.slice(0, 2).toLowerCase();
 
   const handleLanguageClick = (languageId: string) => {
     selectLanguage(languageId);
@@ -23,7 +28,7 @@ export const CountryDetails = ({ country }: CountryDetailsProps) => {
   return (
     <div className="space-y-4">
       <div className="flex items-center space-x-3">
-        <span className="text-3xl">{country.flag}</span>
+        <span className={`fi fi-${iso2} text-8xl border box-content`}></span>
         <div>
           <h2 className="text-xl font-bold">{country.nameJa}</h2>
           <p className="text-gray-600">{country.name}</p>
@@ -37,7 +42,11 @@ export const CountryDetails = ({ country }: CountryDetailsProps) => {
         </div>
         <div>
           <span className="text-gray-500">GeoGuessr:</span>
-          <p className={`font-medium ${country.enabled ? 'text-green-600' : 'text-red-600'}`}>
+          <p
+            className={`font-medium ${
+              country.enabled ? 'text-green-600' : 'text-red-600'
+            }`}
+          >
             {country.enabled ? '対象' : '対象外'}
           </p>
         </div>
