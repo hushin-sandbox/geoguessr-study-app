@@ -3,7 +3,7 @@ import { Country, Region } from '../types';
 export const countries: Country[] = [
   // ヨーロッパ
   {
-    id: 'GB',
+    id: 'GBR',
     name: 'United Kingdom',
     nameJa: 'イギリス',
     region: Region.Europe,
@@ -14,7 +14,7 @@ export const countries: Country[] = [
     coordinates: [-3.4, 55.4]
   },
   {
-    id: 'FR',
+    id: 'FRA',
     name: 'France',
     nameJa: 'フランス',
     region: Region.Europe,
@@ -25,7 +25,7 @@ export const countries: Country[] = [
     coordinates: [2.2, 46.2]
   },
   {
-    id: 'DE',
+    id: 'DEU',
     name: 'Germany',
     nameJa: 'ドイツ',
     region: Region.Europe,
@@ -36,7 +36,7 @@ export const countries: Country[] = [
     coordinates: [10.5, 51.2]
   },
   {
-    id: 'ES',
+    id: 'ESP',
     name: 'Spain',
     nameJa: 'スペイン',
     region: Region.Europe,
@@ -47,7 +47,7 @@ export const countries: Country[] = [
     coordinates: [-3.7, 40.4]
   },
   {
-    id: 'IT',
+    id: 'ITA',
     name: 'Italy',
     nameJa: 'イタリア',
     region: Region.Europe,
@@ -58,7 +58,7 @@ export const countries: Country[] = [
     coordinates: [12.6, 41.9]
   },
   {
-    id: 'PT',
+    id: 'PRT',
     name: 'Portugal',
     nameJa: 'ポルトガル',
     region: Region.Europe,
@@ -69,7 +69,7 @@ export const countries: Country[] = [
     coordinates: [-8.2, 39.4]
   },
   {
-    id: 'NL',
+    id: 'NLD',
     name: 'Netherlands',
     nameJa: 'オランダ',
     region: Region.Europe,
@@ -80,7 +80,7 @@ export const countries: Country[] = [
     coordinates: [5.3, 52.1]
   },
   {
-    id: 'BE',
+    id: 'BEL',
     name: 'Belgium',
     nameJa: 'ベルギー',
     region: Region.Europe,
@@ -91,7 +91,7 @@ export const countries: Country[] = [
     coordinates: [4.5, 50.5]
   },
   {
-    id: 'CH',
+    id: 'CHE',
     name: 'Switzerland',
     nameJa: 'スイス',
     region: Region.Europe,
@@ -102,7 +102,7 @@ export const countries: Country[] = [
     coordinates: [8.2, 46.8]
   },
   {
-    id: 'AT',
+    id: 'AUT',
     name: 'Austria',
     nameJa: 'オーストリア',
     region: Region.Europe,
@@ -113,7 +113,7 @@ export const countries: Country[] = [
     coordinates: [14.6, 47.5]
   },
   {
-    id: 'PL',
+    id: 'POL',
     name: 'Poland',
     nameJa: 'ポーランド',
     region: Region.Europe,
@@ -124,7 +124,7 @@ export const countries: Country[] = [
     coordinates: [19.1, 51.9]
   },
   {
-    id: 'CZ',
+    id: 'CZE',
     name: 'Czech Republic',
     nameJa: 'チェコ',
     region: Region.Europe,
@@ -135,7 +135,7 @@ export const countries: Country[] = [
     coordinates: [15.5, 49.8]
   },
   {
-    id: 'SK',
+    id: 'SVK',
     name: 'Slovakia',
     nameJa: 'スロバキア',
     region: Region.Europe,
@@ -146,7 +146,7 @@ export const countries: Country[] = [
     coordinates: [19.7, 48.7]
   },
   {
-    id: 'HU',
+    id: 'HUN',
     name: 'Hungary',
     nameJa: 'ハンガリー',
     region: Region.Europe,
@@ -157,7 +157,7 @@ export const countries: Country[] = [
     coordinates: [19.5, 47.2]
   },
   {
-    id: 'RO',
+    id: 'ROU',
     name: 'Romania',
     nameJa: 'ルーマニア',
     region: Region.Europe,
@@ -168,7 +168,7 @@ export const countries: Country[] = [
     coordinates: [24.9, 45.9]
   },
   {
-    id: 'BG',
+    id: 'BGR',
     name: 'Bulgaria',
     nameJa: 'ブルガリア',
     region: Region.Europe,
@@ -179,7 +179,7 @@ export const countries: Country[] = [
     coordinates: [25.5, 42.7]
   },
   {
-    id: 'GR',
+    id: 'GRC',
     name: 'Greece',
     nameJa: 'ギリシャ',
     region: Region.Europe,
@@ -190,7 +190,7 @@ export const countries: Country[] = [
     coordinates: [21.8, 39.1]
   },
   {
-    id: 'RS',
+    id: 'SRB',
     name: 'Serbia',
     nameJa: 'セルビア',
     region: Region.Europe,
@@ -201,7 +201,7 @@ export const countries: Country[] = [
     coordinates: [21.0, 44.0]
   },
   {
-    id: 'HR',
+    id: 'HRV',
     name: 'Croatia',
     nameJa: 'クロアチア',
     region: Region.Europe,
@@ -212,7 +212,7 @@ export const countries: Country[] = [
     coordinates: [15.2, 45.1]
   },
   {
-    id: 'SI',
+    id: 'SVN',
     name: 'Slovenia',
     nameJa: 'スロベニア',
     region: Region.Europe,
@@ -223,7 +223,7 @@ export const countries: Country[] = [
     coordinates: [14.9, 46.2]
   },
   {
-    id: 'BA',
+    id: 'BIH',
     name: 'Bosnia and Herzegovina',
     nameJa: 'ボスニア・ヘルツェゴビナ',
     region: Region.Europe,
@@ -234,7 +234,7 @@ export const countries: Country[] = [
     coordinates: [17.7, 43.9]
   },
   {
-    id: 'MK',
+    id: 'MKD',
     name: 'North Macedonia',
     nameJa: '北マケドニア',
     region: Region.Europe,
@@ -245,7 +245,7 @@ export const countries: Country[] = [
     coordinates: [21.7, 41.6]
   },
   {
-    id: 'AL',
+    id: 'ALB',
     name: 'Albania',
     nameJa: 'アルバニア',
     region: Region.Europe,
@@ -256,7 +256,7 @@ export const countries: Country[] = [
     coordinates: [20.2, 41.2]
   },
   {
-    id: 'ME',
+    id: 'MNE',
     name: 'Montenegro',
     nameJa: 'モンテネグロ',
     region: Region.Europe,
@@ -267,7 +267,7 @@ export const countries: Country[] = [
     coordinates: [19.3, 42.7]
   },
   {
-    id: 'LV',
+    id: 'LVA',
     name: 'Latvia',
     nameJa: 'ラトビア',
     region: Region.Europe,
@@ -278,7 +278,7 @@ export const countries: Country[] = [
     coordinates: [24.6, 56.9]
   },
   {
-    id: 'LT',
+    id: 'LTU',
     name: 'Lithuania',
     nameJa: 'リトアニア',
     region: Region.Europe,
@@ -289,7 +289,7 @@ export const countries: Country[] = [
     coordinates: [23.9, 55.2]
   },
   {
-    id: 'EE',
+    id: 'EST',
     name: 'Estonia',
     nameJa: 'エストニア',
     region: Region.Europe,
@@ -300,7 +300,7 @@ export const countries: Country[] = [
     coordinates: [25.0, 58.6]
   },
   {
-    id: 'FI',
+    id: 'FIN',
     name: 'Finland',
     nameJa: 'フィンランド',
     region: Region.Europe,
@@ -311,7 +311,7 @@ export const countries: Country[] = [
     coordinates: [25.7, 61.9]
   },
   {
-    id: 'SE',
+    id: 'SWE',
     name: 'Sweden',
     nameJa: 'スウェーデン',
     region: Region.Europe,
@@ -322,7 +322,7 @@ export const countries: Country[] = [
     coordinates: [18.6, 60.1]
   },
   {
-    id: 'NO',
+    id: 'NOR',
     name: 'Norway',
     nameJa: 'ノルウェー',
     region: Region.Europe,
@@ -333,7 +333,7 @@ export const countries: Country[] = [
     coordinates: [9.0, 60.5]
   },
   {
-    id: 'DK',
+    id: 'DNK',
     name: 'Denmark',
     nameJa: 'デンマーク',
     region: Region.Europe,
@@ -344,7 +344,7 @@ export const countries: Country[] = [
     coordinates: [9.5, 56.3]
   },
   {
-    id: 'IS',
+    id: 'ISL',
     name: 'Iceland',
     nameJa: 'アイスランド',
     region: Region.Europe,
@@ -355,7 +355,7 @@ export const countries: Country[] = [
     coordinates: [-19.0, 64.1]
   },
   {
-    id: 'IE',
+    id: 'IRL',
     name: 'Ireland',
     nameJa: 'アイルランド',
     region: Region.Europe,
@@ -366,7 +366,7 @@ export const countries: Country[] = [
     coordinates: [-8.2, 53.4]
   },
   {
-    id: 'RU',
+    id: 'RUS',
     name: 'Russia',
     nameJa: 'ロシア',
     region: Region.Europe,
@@ -377,7 +377,7 @@ export const countries: Country[] = [
     coordinates: [105.3, 61.5]
   },
   {
-    id: 'UA',
+    id: 'UKR',
     name: 'Ukraine',
     nameJa: 'ウクライナ',
     region: Region.Europe,
@@ -388,7 +388,7 @@ export const countries: Country[] = [
     coordinates: [31.2, 49.0]
   },
   {
-    id: 'BY',
+    id: 'BLR',
     name: 'Belarus',
     nameJa: 'ベラルーシ',
     region: Region.Europe,
@@ -399,7 +399,7 @@ export const countries: Country[] = [
     coordinates: [27.9, 53.7]
   },
   {
-    id: 'MD',
+    id: 'MDA',
     name: 'Moldova',
     nameJa: 'モルドバ',
     region: Region.Europe,
@@ -412,7 +412,7 @@ export const countries: Country[] = [
 
   // 北アメリカ
   {
-    id: 'US',
+    id: 'USA',
     name: 'United States',
     nameJa: 'アメリカ合衆国',
     region: Region.NorthAmerica,
@@ -423,7 +423,7 @@ export const countries: Country[] = [
     coordinates: [-95.7, 37.1]
   },
   {
-    id: 'CA',
+    id: 'CAN',
     name: 'Canada',
     nameJa: 'カナダ',
     region: Region.NorthAmerica,
@@ -434,7 +434,7 @@ export const countries: Country[] = [
     coordinates: [-106.3, 56.1]
   },
   {
-    id: 'MX',
+    id: 'MEX',
     name: 'Mexico',
     nameJa: 'メキシコ',
     region: Region.NorthAmerica,
@@ -447,7 +447,7 @@ export const countries: Country[] = [
 
   // 南アメリカ
   {
-    id: 'BR',
+    id: 'BRA',
     name: 'Brazil',
     nameJa: 'ブラジル',
     region: Region.SouthAmerica,
@@ -458,7 +458,7 @@ export const countries: Country[] = [
     coordinates: [-51.9, -14.2]
   },
   {
-    id: 'AR',
+    id: 'ARG',
     name: 'Argentina',
     nameJa: 'アルゼンチン',
     region: Region.SouthAmerica,
@@ -469,7 +469,7 @@ export const countries: Country[] = [
     coordinates: [-63.6, -38.4]
   },
   {
-    id: 'CO',
+    id: 'COL',
     name: 'Colombia',
     nameJa: 'コロンビア',
     region: Region.SouthAmerica,
@@ -480,7 +480,7 @@ export const countries: Country[] = [
     coordinates: [-74.3, 4.6]
   },
   {
-    id: 'PE',
+    id: 'PER',
     name: 'Peru',
     nameJa: 'ペルー',
     region: Region.SouthAmerica,
@@ -491,7 +491,7 @@ export const countries: Country[] = [
     coordinates: [-75.0, -9.2]
   },
   {
-    id: 'CL',
+    id: 'CHL',
     name: 'Chile',
     nameJa: 'チリ',
     region: Region.SouthAmerica,
@@ -502,7 +502,7 @@ export const countries: Country[] = [
     coordinates: [-71.5, -35.7]
   },
   {
-    id: 'EC',
+    id: 'ECU',
     name: 'Ecuador',
     nameJa: 'エクアドル',
     region: Region.SouthAmerica,
@@ -513,7 +513,7 @@ export const countries: Country[] = [
     coordinates: [-78.2, -1.8]
   },
   {
-    id: 'UY',
+    id: 'URY',
     name: 'Uruguay',
     nameJa: 'ウルグアイ',
     region: Region.SouthAmerica,
@@ -524,7 +524,7 @@ export const countries: Country[] = [
     coordinates: [-55.8, -32.5]
   },
   {
-    id: 'BO',
+    id: 'BOL',
     name: 'Bolivia',
     nameJa: 'ボリビア',
     region: Region.SouthAmerica,
@@ -537,7 +537,7 @@ export const countries: Country[] = [
 
   // アジア
   {
-    id: 'JP',
+    id: 'JPN',
     name: 'Japan',
     nameJa: '日本',
     region: Region.EastAsia,
@@ -548,7 +548,7 @@ export const countries: Country[] = [
     coordinates: [138.2, 36.2]
   },
   {
-    id: 'KR',
+    id: 'KOR',
     name: 'South Korea',
     nameJa: '韓国',
     region: Region.EastAsia,
@@ -559,7 +559,7 @@ export const countries: Country[] = [
     coordinates: [127.8, 35.9]
   },
   {
-    id: 'CN',
+    id: 'CHN',
     name: 'China',
     nameJa: '中国',
     region: Region.EastAsia,
@@ -570,7 +570,7 @@ export const countries: Country[] = [
     coordinates: [104.2, 35.9]
   },
   {
-    id: 'TW',
+    id: 'TWN',
     name: 'Taiwan',
     nameJa: '台湾',
     region: Region.EastAsia,
@@ -581,7 +581,7 @@ export const countries: Country[] = [
     coordinates: [120.9, 23.7]
   },
   {
-    id: 'MN',
+    id: 'MNG',
     name: 'Mongolia',
     nameJa: 'モンゴル',
     region: Region.EastAsia,
@@ -592,7 +592,7 @@ export const countries: Country[] = [
     coordinates: [103.8, 46.9]
   },
   {
-    id: 'TH',
+    id: 'THA',
     name: 'Thailand',
     nameJa: 'タイ',
     region: Region.SoutheastAsia,
@@ -603,7 +603,7 @@ export const countries: Country[] = [
     coordinates: [100.9, 15.9]
   },
   {
-    id: 'VN',
+    id: 'VNM',
     name: 'Vietnam',
     nameJa: 'ベトナム',
     region: Region.SoutheastAsia,
@@ -614,7 +614,7 @@ export const countries: Country[] = [
     coordinates: [108.3, 14.1]
   },
   {
-    id: 'KH',
+    id: 'KHM',
     name: 'Cambodia',
     nameJa: 'カンボジア',
     region: Region.SoutheastAsia,
@@ -625,7 +625,7 @@ export const countries: Country[] = [
     coordinates: [104.9, 12.6]
   },
   {
-    id: 'LA',
+    id: 'LAO',
     name: 'Laos',
     nameJa: 'ラオス',
     region: Region.SoutheastAsia,
@@ -636,7 +636,7 @@ export const countries: Country[] = [
     coordinates: [102.5, 19.9]
   },
   {
-    id: 'MM',
+    id: 'MMR',
     name: 'Myanmar',
     nameJa: 'ミャンマー',
     region: Region.SoutheastAsia,
@@ -647,7 +647,7 @@ export const countries: Country[] = [
     coordinates: [95.9, 21.9]
   },
   {
-    id: 'MY',
+    id: 'MYS',
     name: 'Malaysia',
     nameJa: 'マレーシア',
     region: Region.SoutheastAsia,
@@ -658,7 +658,7 @@ export const countries: Country[] = [
     coordinates: [101.9, 4.2]
   },
   {
-    id: 'SG',
+    id: 'SGP',
     name: 'Singapore',
     nameJa: 'シンガポール',
     region: Region.SoutheastAsia,
@@ -669,7 +669,7 @@ export const countries: Country[] = [
     coordinates: [103.8, 1.4]
   },
   {
-    id: 'ID',
+    id: 'IDN',
     name: 'Indonesia',
     nameJa: 'インドネシア',
     region: Region.SoutheastAsia,
@@ -680,7 +680,7 @@ export const countries: Country[] = [
     coordinates: [113.9, -0.8]
   },
   {
-    id: 'PH',
+    id: 'PHL',
     name: 'Philippines',
     nameJa: 'フィリピン',
     region: Region.SoutheastAsia,
@@ -691,7 +691,7 @@ export const countries: Country[] = [
     coordinates: [121.8, 12.9]
   },
   {
-    id: 'BN',
+    id: 'BRN',
     name: 'Brunei',
     nameJa: 'ブルネイ',
     region: Region.SoutheastAsia,
@@ -702,7 +702,7 @@ export const countries: Country[] = [
     coordinates: [114.7, 4.5]
   },
   {
-    id: 'IN',
+    id: 'IND',
     name: 'India',
     nameJa: 'インド',
     region: Region.CentralSouthAsia,
@@ -713,7 +713,7 @@ export const countries: Country[] = [
     coordinates: [77.2, 20.6]
   },
   {
-    id: 'PK',
+    id: 'PAK',
     name: 'Pakistan',
     nameJa: 'パキスタン',
     region: Region.CentralSouthAsia,
@@ -724,7 +724,7 @@ export const countries: Country[] = [
     coordinates: [69.3, 30.4]
   },
   {
-    id: 'BD',
+    id: 'BGD',
     name: 'Bangladesh',
     nameJa: 'バングラデシュ',
     region: Region.CentralSouthAsia,
@@ -735,7 +735,7 @@ export const countries: Country[] = [
     coordinates: [90.4, 23.7]
   },
   {
-    id: 'LK',
+    id: 'LKA',
     name: 'Sri Lanka',
     nameJa: 'スリランカ',
     region: Region.CentralSouthAsia,
@@ -746,7 +746,7 @@ export const countries: Country[] = [
     coordinates: [80.8, 7.9]
   },
   {
-    id: 'NP',
+    id: 'NPL',
     name: 'Nepal',
     nameJa: 'ネパール',
     region: Region.CentralSouthAsia,
@@ -757,7 +757,7 @@ export const countries: Country[] = [
     coordinates: [84.1, 28.4]
   },
   {
-    id: 'BT',
+    id: 'BTN',
     name: 'Bhutan',
     nameJa: 'ブータン',
     region: Region.CentralSouthAsia,
@@ -768,7 +768,7 @@ export const countries: Country[] = [
     coordinates: [90.4, 27.5]
   },
   {
-    id: 'AF',
+    id: 'AFG',
     name: 'Afghanistan',
     nameJa: 'アフガニスタン',
     region: Region.CentralSouthAsia,
@@ -779,7 +779,7 @@ export const countries: Country[] = [
     coordinates: [67.7, 33.9]
   },
   {
-    id: 'KZ',
+    id: 'KAZ',
     name: 'Kazakhstan',
     nameJa: 'カザフスタン',
     region: Region.CentralSouthAsia,
@@ -790,7 +790,7 @@ export const countries: Country[] = [
     coordinates: [66.9, 48.0]
   },
   {
-    id: 'UZ',
+    id: 'UZB',
     name: 'Uzbekistan',
     nameJa: 'ウズベキスタン',
     region: Region.CentralSouthAsia,
@@ -801,7 +801,7 @@ export const countries: Country[] = [
     coordinates: [64.6, 41.4]
   },
   {
-    id: 'KG',
+    id: 'KGZ',
     name: 'Kyrgyzstan',
     nameJa: 'キルギス',
     region: Region.CentralSouthAsia,
@@ -812,7 +812,7 @@ export const countries: Country[] = [
     coordinates: [74.8, 41.2]
   },
   {
-    id: 'TJ',
+    id: 'TJK',
     name: 'Tajikistan',
     nameJa: 'タジキスタン',
     region: Region.CentralSouthAsia,
@@ -823,7 +823,7 @@ export const countries: Country[] = [
     coordinates: [71.3, 38.9]
   },
   {
-    id: 'TM',
+    id: 'TKM',
     name: 'Turkmenistan',
     nameJa: 'トルクメニスタン',
     region: Region.CentralSouthAsia,
@@ -834,7 +834,7 @@ export const countries: Country[] = [
     coordinates: [59.6, 38.9]
   },
   {
-    id: 'TR',
+    id: 'TUR',
     name: 'Turkey',
     nameJa: 'トルコ',
     region: Region.WestAsia,
@@ -845,7 +845,7 @@ export const countries: Country[] = [
     coordinates: [35.2, 38.9]
   },
   {
-    id: 'IR',
+    id: 'IRN',
     name: 'Iran',
     nameJa: 'イラン',
     region: Region.WestAsia,
@@ -856,7 +856,7 @@ export const countries: Country[] = [
     coordinates: [53.7, 32.4]
   },
   {
-    id: 'IQ',
+    id: 'IRQ',
     name: 'Iraq',
     nameJa: 'イラク',
     region: Region.WestAsia,
@@ -867,7 +867,7 @@ export const countries: Country[] = [
     coordinates: [43.7, 33.2]
   },
   {
-    id: 'SY',
+    id: 'SYR',
     name: 'Syria',
     nameJa: 'シリア',
     region: Region.WestAsia,
@@ -878,7 +878,7 @@ export const countries: Country[] = [
     coordinates: [38.9, 34.8]
   },
   {
-    id: 'LB',
+    id: 'LBN',
     name: 'Lebanon',
     nameJa: 'レバノン',
     region: Region.WestAsia,
@@ -889,7 +889,7 @@ export const countries: Country[] = [
     coordinates: [35.9, 33.9]
   },
   {
-    id: 'JO',
+    id: 'JOR',
     name: 'Jordan',
     nameJa: 'ヨルダン',
     region: Region.WestAsia,
@@ -900,7 +900,7 @@ export const countries: Country[] = [
     coordinates: [36.2, 30.6]
   },
   {
-    id: 'SA',
+    id: 'SAU',
     name: 'Saudi Arabia',
     nameJa: 'サウジアラビア',
     region: Region.WestAsia,
@@ -911,7 +911,7 @@ export const countries: Country[] = [
     coordinates: [45.1, 23.9]
   },
   {
-    id: 'AE',
+    id: 'ARE',
     name: 'United Arab Emirates',
     nameJa: 'アラブ首長国連邦',
     region: Region.WestAsia,
@@ -922,7 +922,7 @@ export const countries: Country[] = [
     coordinates: [54.4, 24.3]
   },
   {
-    id: 'KW',
+    id: 'KWT',
     name: 'Kuwait',
     nameJa: 'クウェート',
     region: Region.WestAsia,
@@ -933,7 +933,7 @@ export const countries: Country[] = [
     coordinates: [47.5, 29.3]
   },
   {
-    id: 'QA',
+    id: 'QAT',
     name: 'Qatar',
     nameJa: 'カタール',
     region: Region.WestAsia,
@@ -944,7 +944,7 @@ export const countries: Country[] = [
     coordinates: [51.2, 25.4]
   },
   {
-    id: 'BH',
+    id: 'BHR',
     name: 'Bahrain',
     nameJa: 'バーレーン',
     region: Region.WestAsia,
@@ -955,7 +955,7 @@ export const countries: Country[] = [
     coordinates: [50.6, 25.9]
   },
   {
-    id: 'OM',
+    id: 'OMN',
     name: 'Oman',
     nameJa: 'オマーン',
     region: Region.WestAsia,
@@ -966,7 +966,7 @@ export const countries: Country[] = [
     coordinates: [55.9, 21.5]
   },
   {
-    id: 'YE',
+    id: 'YEM',
     name: 'Yemen',
     nameJa: 'イエメン',
     region: Region.WestAsia,
@@ -977,7 +977,7 @@ export const countries: Country[] = [
     coordinates: [48.5, 15.6]
   },
   {
-    id: 'IL',
+    id: 'ISR',
     name: 'Israel',
     nameJa: 'イスラエル',
     region: Region.WestAsia,
@@ -988,7 +988,7 @@ export const countries: Country[] = [
     coordinates: [34.9, 31.0]
   },
   {
-    id: 'PS',
+    id: 'PSE',
     name: 'Palestine',
     nameJa: 'パレスチナ',
     region: Region.WestAsia,
@@ -999,7 +999,7 @@ export const countries: Country[] = [
     coordinates: [35.2, 31.9]
   },
   {
-    id: 'CY',
+    id: 'CYP',
     name: 'Cyprus',
     nameJa: 'キプロス',
     region: Region.WestAsia,
@@ -1010,7 +1010,7 @@ export const countries: Country[] = [
     coordinates: [33.4, 35.1]
   },
   {
-    id: 'GE',
+    id: 'GEO',
     name: 'Georgia',
     nameJa: 'ジョージア',
     region: Region.WestAsia,
@@ -1021,7 +1021,7 @@ export const countries: Country[] = [
     coordinates: [43.4, 42.3]
   },
   {
-    id: 'AM',
+    id: 'ARM',
     name: 'Armenia',
     nameJa: 'アルメニア',
     region: Region.WestAsia,
@@ -1032,7 +1032,7 @@ export const countries: Country[] = [
     coordinates: [45.0, 40.1]
   },
   {
-    id: 'AZ',
+    id: 'AZE',
     name: 'Azerbaijan',
     nameJa: 'アゼルバイジャン',
     region: Region.WestAsia,
@@ -1045,7 +1045,7 @@ export const countries: Country[] = [
 
   // オセアニア
   {
-    id: 'AU',
+    id: 'AUS',
     name: 'Australia',
     nameJa: 'オーストラリア',
     region: Region.Oceania,
@@ -1056,7 +1056,7 @@ export const countries: Country[] = [
     coordinates: [133.8, -25.3]
   },
   {
-    id: 'NZ',
+    id: 'NZL',
     name: 'New Zealand',
     nameJa: 'ニュージーランド',
     region: Region.Oceania,
@@ -1067,7 +1067,7 @@ export const countries: Country[] = [
     coordinates: [174.9, -40.9]
   },
   {
-    id: 'PG',
+    id: 'PNG',
     name: 'Papua New Guinea',
     nameJa: 'パプアニューギニア',
     region: Region.Oceania,
@@ -1078,7 +1078,7 @@ export const countries: Country[] = [
     coordinates: [143.9, -6.3]
   },
   {
-    id: 'FJ',
+    id: 'FJI',
     name: 'Fiji',
     nameJa: 'フィジー',
     region: Region.Oceania,
@@ -1089,7 +1089,7 @@ export const countries: Country[] = [
     coordinates: [178.1, -16.6]
   },
   {
-    id: 'SB',
+    id: 'SLB',
     name: 'Solomon Islands',
     nameJa: 'ソロモン諸島',
     region: Region.Oceania,
@@ -1100,7 +1100,7 @@ export const countries: Country[] = [
     coordinates: [160.2, -9.6]
   },
   {
-    id: 'VU',
+    id: 'VUT',
     name: 'Vanuatu',
     nameJa: 'バヌアツ',
     region: Region.Oceania,
@@ -1111,7 +1111,7 @@ export const countries: Country[] = [
     coordinates: [166.9, -15.4]
   },
   {
-    id: 'NC',
+    id: 'NCL',
     name: 'New Caledonia',
     nameJa: 'ニューカレドニア',
     region: Region.Oceania,
@@ -1122,7 +1122,7 @@ export const countries: Country[] = [
     coordinates: [165.6, -20.9]
   },
   {
-    id: 'PF',
+    id: 'PYF',
     name: 'French Polynesia',
     nameJa: 'フランス領ポリネシア',
     region: Region.Oceania,
@@ -1133,7 +1133,7 @@ export const countries: Country[] = [
     coordinates: [-149.4, -17.7]
   },
   {
-    id: 'AS',
+    id: 'ASM',
     name: 'American Samoa',
     nameJa: 'アメリカ領サモア',
     region: Region.Oceania,
@@ -1144,7 +1144,7 @@ export const countries: Country[] = [
     coordinates: [-170.1, -14.3]
   },
   {
-    id: 'GU',
+    id: 'GUM',
     name: 'Guam',
     nameJa: 'グアム',
     region: Region.Oceania,
@@ -1155,7 +1155,7 @@ export const countries: Country[] = [
     coordinates: [144.8, 13.4]
   },
   {
-    id: 'MP',
+    id: 'MNP',
     name: 'Northern Mariana Islands',
     nameJa: '北マリアナ諸島',
     region: Region.Oceania,
@@ -1168,7 +1168,7 @@ export const countries: Country[] = [
 
   // アフリカ
   {
-    id: 'ZA',
+    id: 'ZAF',
     name: 'South Africa',
     nameJa: '南アフリカ',
     region: Region.Africa,
@@ -1179,7 +1179,7 @@ export const countries: Country[] = [
     coordinates: [22.9, -30.6]
   },
   {
-    id: 'EG',
+    id: 'EGY',
     name: 'Egypt',
     nameJa: 'エジプト',
     region: Region.Africa,
@@ -1190,7 +1190,7 @@ export const countries: Country[] = [
     coordinates: [30.8, 26.8]
   },
   {
-    id: 'MA',
+    id: 'MAR',
     name: 'Morocco',
     nameJa: 'モロッコ',
     region: Region.Africa,
@@ -1201,7 +1201,7 @@ export const countries: Country[] = [
     coordinates: [-7.1, 31.8]
   },
   {
-    id: 'TN',
+    id: 'TUN',
     name: 'Tunisia',
     nameJa: 'チュニジア',
     region: Region.Africa,
@@ -1212,7 +1212,7 @@ export const countries: Country[] = [
     coordinates: [9.5, 34.0]
   },
   {
-    id: 'DZ',
+    id: 'DZA',
     name: 'Algeria',
     nameJa: 'アルジェリア',
     region: Region.Africa,
@@ -1223,7 +1223,7 @@ export const countries: Country[] = [
     coordinates: [1.7, 28.0]
   },
   {
-    id: 'LY',
+    id: 'LBY',
     name: 'Libya',
     nameJa: 'リビア',
     region: Region.Africa,
@@ -1234,7 +1234,7 @@ export const countries: Country[] = [
     coordinates: [17.2, 26.3]
   },
   {
-    id: 'SD',
+    id: 'SDN',
     name: 'Sudan',
     nameJa: 'スーダン',
     region: Region.Africa,
@@ -1245,7 +1245,7 @@ export const countries: Country[] = [
     coordinates: [30.2, 12.9]
   },
   {
-    id: 'ET',
+    id: 'ETH',
     name: 'Ethiopia',
     nameJa: 'エチオピア',
     region: Region.Africa,
@@ -1256,7 +1256,7 @@ export const countries: Country[] = [
     coordinates: [40.5, 9.1]
   },
   {
-    id: 'KE',
+    id: 'KEN',
     name: 'Kenya',
     nameJa: 'ケニア',
     region: Region.Africa,
@@ -1267,7 +1267,7 @@ export const countries: Country[] = [
     coordinates: [37.9, -0.0]
   },
   {
-    id: 'TZ',
+    id: 'TZA',
     name: 'Tanzania',
     nameJa: 'タンザニア',
     region: Region.Africa,
@@ -1278,7 +1278,7 @@ export const countries: Country[] = [
     coordinates: [34.9, -6.4]
   },
   {
-    id: 'UG',
+    id: 'UGA',
     name: 'Uganda',
     nameJa: 'ウガンダ',
     region: Region.Africa,
@@ -1289,7 +1289,7 @@ export const countries: Country[] = [
     coordinates: [32.3, 1.4]
   },
   {
-    id: 'RW',
+    id: 'RWA',
     name: 'Rwanda',
     nameJa: 'ルワンダ',
     region: Region.Africa,
@@ -1300,7 +1300,7 @@ export const countries: Country[] = [
     coordinates: [30.0, -1.9]
   },
   {
-    id: 'BI',
+    id: 'BDI',
     name: 'Burundi',
     nameJa: 'ブルンジ',
     region: Region.Africa,
@@ -1311,7 +1311,7 @@ export const countries: Country[] = [
     coordinates: [29.9, -3.4]
   },
   {
-    id: 'CD',
+    id: 'COD',
     name: 'Democratic Republic of the Congo',
     nameJa: 'コンゴ民主共和国',
     region: Region.Africa,
@@ -1322,7 +1322,7 @@ export const countries: Country[] = [
     coordinates: [21.8, -4.0]
   },
   {
-    id: 'CG',
+    id: 'COG',
     name: 'Republic of the Congo',
     nameJa: 'コンゴ共和国',
     region: Region.Africa,
@@ -1333,7 +1333,7 @@ export const countries: Country[] = [
     coordinates: [15.8, -0.2]
   },
   {
-    id: 'CM',
+    id: 'CMR',
     name: 'Cameroon',
     nameJa: 'カメルーン',
     region: Region.Africa,
@@ -1344,7 +1344,7 @@ export const countries: Country[] = [
     coordinates: [12.4, 7.4]
   },
   {
-    id: 'CF',
+    id: 'CAF',
     name: 'Central African Republic',
     nameJa: '中央アフリカ共和国',
     region: Region.Africa,
@@ -1355,7 +1355,7 @@ export const countries: Country[] = [
     coordinates: [20.9, 6.6]
   },
   {
-    id: 'TD',
+    id: 'TCD',
     name: 'Chad',
     nameJa: 'チャド',
     region: Region.Africa,
@@ -1366,7 +1366,7 @@ export const countries: Country[] = [
     coordinates: [18.7, 15.5]
   },
   {
-    id: 'NE',
+    id: 'NER',
     name: 'Niger',
     nameJa: 'ニジェール',
     region: Region.Africa,
@@ -1377,7 +1377,7 @@ export const countries: Country[] = [
     coordinates: [8.1, 17.6]
   },
   {
-    id: 'ML',
+    id: 'MLI',
     name: 'Mali',
     nameJa: 'マリ',
     region: Region.Africa,
@@ -1388,7 +1388,7 @@ export const countries: Country[] = [
     coordinates: [-3.0, 17.6]
   },
   {
-    id: 'BF',
+    id: 'BFA',
     name: 'Burkina Faso',
     nameJa: 'ブルキナファソ',
     region: Region.Africa,
@@ -1399,7 +1399,7 @@ export const countries: Country[] = [
     coordinates: [-2.2, 12.2]
   },
   {
-    id: 'SN',
+    id: 'SEN',
     name: 'Senegal',
     nameJa: 'セネガル',
     region: Region.Africa,
@@ -1410,7 +1410,7 @@ export const countries: Country[] = [
     coordinates: [-14.5, 14.5]
   },
   {
-    id: 'GM',
+    id: 'GMB',
     name: 'Gambia',
     nameJa: 'ガンビア',
     region: Region.Africa,
@@ -1421,7 +1421,7 @@ export const countries: Country[] = [
     coordinates: [-15.3, 13.4]
   },
   {
-    id: 'GW',
+    id: 'GNB',
     name: 'Guinea-Bissau',
     nameJa: 'ギニアビサウ',
     region: Region.Africa,
@@ -1432,7 +1432,7 @@ export const countries: Country[] = [
     coordinates: [-15.2, 11.8]
   },
   {
-    id: 'GN',
+    id: 'GIN',
     name: 'Guinea',
     nameJa: 'ギニア',
     region: Region.Africa,
@@ -1443,7 +1443,7 @@ export const countries: Country[] = [
     coordinates: [-9.7, 9.9]
   },
   {
-    id: 'SL',
+    id: 'SLE',
     name: 'Sierra Leone',
     nameJa: 'シエラレオネ',
     region: Region.Africa,
@@ -1454,7 +1454,7 @@ export const countries: Country[] = [
     coordinates: [-11.8, 8.5]
   },
   {
-    id: 'LR',
+    id: 'LBR',
     name: 'Liberia',
     nameJa: 'リベリア',
     region: Region.Africa,
@@ -1465,7 +1465,7 @@ export const countries: Country[] = [
     coordinates: [-9.4, 6.4]
   },
   {
-    id: 'CI',
+    id: 'CIV',
     name: 'Côte d\'Ivoire',
     nameJa: 'コートジボワール',
     region: Region.Africa,
@@ -1476,7 +1476,7 @@ export const countries: Country[] = [
     coordinates: [-5.5, 7.5]
   },
   {
-    id: 'GH',
+    id: 'GHA',
     name: 'Ghana',
     nameJa: 'ガーナ',
     region: Region.Africa,
@@ -1487,7 +1487,7 @@ export const countries: Country[] = [
     coordinates: [-1.0, 7.9]
   },
   {
-    id: 'TG',
+    id: 'TGO',
     name: 'Togo',
     nameJa: 'トーゴ',
     region: Region.Africa,
@@ -1498,7 +1498,7 @@ export const countries: Country[] = [
     coordinates: [0.8, 8.6]
   },
   {
-    id: 'BJ',
+    id: 'BEN',
     name: 'Benin',
     nameJa: 'ベナン',
     region: Region.Africa,
@@ -1509,7 +1509,7 @@ export const countries: Country[] = [
     coordinates: [2.3, 9.3]
   },
   {
-    id: 'NG',
+    id: 'NGA',
     name: 'Nigeria',
     nameJa: 'ナイジェリア',
     region: Region.Africa,
@@ -1520,7 +1520,7 @@ export const countries: Country[] = [
     coordinates: [8.7, 9.1]
   },
   {
-    id: 'GA',
+    id: 'GAB',
     name: 'Gabon',
     nameJa: 'ガボン',
     region: Region.Africa,
@@ -1531,7 +1531,7 @@ export const countries: Country[] = [
     coordinates: [11.6, -0.8]
   },
   {
-    id: 'GQ',
+    id: 'GNQ',
     name: 'Equatorial Guinea',
     nameJa: '赤道ギニア',
     region: Region.Africa,
@@ -1542,7 +1542,7 @@ export const countries: Country[] = [
     coordinates: [10.3, 1.7]
   },
   {
-    id: 'ST',
+    id: 'STP',
     name: 'São Tomé and Príncipe',
     nameJa: 'サントメ・プリンシペ',
     region: Region.Africa,
@@ -1553,7 +1553,7 @@ export const countries: Country[] = [
     coordinates: [6.6, 0.2]
   },
   {
-    id: 'AO',
+    id: 'AGO',
     name: 'Angola',
     nameJa: 'アンゴラ',
     region: Region.Africa,
@@ -1564,7 +1564,7 @@ export const countries: Country[] = [
     coordinates: [17.9, -11.2]
   },
   {
-    id: 'ZM',
+    id: 'ZMB',
     name: 'Zambia',
     nameJa: 'ザンビア',
     region: Region.Africa,
@@ -1575,7 +1575,7 @@ export const countries: Country[] = [
     coordinates: [27.8, -13.1]
   },
   {
-    id: 'ZW',
+    id: 'ZWE',
     name: 'Zimbabwe',
     nameJa: 'ジンバブエ',
     region: Region.Africa,
@@ -1586,7 +1586,7 @@ export const countries: Country[] = [
     coordinates: [29.2, -19.0]
   },
   {
-    id: 'BW',
+    id: 'BWA',
     name: 'Botswana',
     nameJa: 'ボツワナ',
     region: Region.Africa,
@@ -1597,7 +1597,7 @@ export const countries: Country[] = [
     coordinates: [24.7, -22.3]
   },
   {
-    id: 'NA',
+    id: 'NAM',
     name: 'Namibia',
     nameJa: 'ナミビア',
     region: Region.Africa,
@@ -1608,7 +1608,7 @@ export const countries: Country[] = [
     coordinates: [18.5, -22.9]
   },
   {
-    id: 'LS',
+    id: 'LSO',
     name: 'Lesotho',
     nameJa: 'レソト',
     region: Region.Africa,
@@ -1619,7 +1619,7 @@ export const countries: Country[] = [
     coordinates: [28.2, -29.6]
   },
   {
-    id: 'SZ',
+    id: 'SWZ',
     name: 'Eswatini',
     nameJa: 'エスワティニ',
     region: Region.Africa,
@@ -1630,7 +1630,7 @@ export const countries: Country[] = [
     coordinates: [31.5, -26.5]
   },
   {
-    id: 'MZ',
+    id: 'MOZ',
     name: 'Mozambique',
     nameJa: 'モザンビーク',
     region: Region.Africa,
@@ -1641,7 +1641,7 @@ export const countries: Country[] = [
     coordinates: [35.5, -18.7]
   },
   {
-    id: 'MG',
+    id: 'MDG',
     name: 'Madagascar',
     nameJa: 'マダガスカル',
     region: Region.Africa,
@@ -1652,7 +1652,7 @@ export const countries: Country[] = [
     coordinates: [46.9, -18.8]
   },
   {
-    id: 'MU',
+    id: 'MUS',
     name: 'Mauritius',
     nameJa: 'モーリシャス',
     region: Region.Africa,
@@ -1663,7 +1663,7 @@ export const countries: Country[] = [
     coordinates: [57.6, -20.3]
   },
   {
-    id: 'SC',
+    id: 'SYC',
     name: 'Seychelles',
     nameJa: 'セーシェル',
     region: Region.Africa,
@@ -1674,7 +1674,7 @@ export const countries: Country[] = [
     coordinates: [55.5, -4.7]
   },
   {
-    id: 'KM',
+    id: 'COM',
     name: 'Comoros',
     nameJa: 'コモロ',
     region: Region.Africa,
@@ -1685,7 +1685,7 @@ export const countries: Country[] = [
     coordinates: [43.9, -11.9]
   },
   {
-    id: 'CV',
+    id: 'CPV',
     name: 'Cape Verde',
     nameJa: 'カーボベルデ',
     region: Region.Africa,
@@ -1696,7 +1696,7 @@ export const countries: Country[] = [
     coordinates: [-24.0, 16.0]
   },
   {
-    id: 'DJ',
+    id: 'DJI',
     name: 'Djibouti',
     nameJa: 'ジブチ',
     region: Region.Africa,
@@ -1707,7 +1707,7 @@ export const countries: Country[] = [
     coordinates: [42.6, 11.8]
   },
   {
-    id: 'ER',
+    id: 'ERI',
     name: 'Eritrea',
     nameJa: 'エリトリア',
     region: Region.Africa,
@@ -1718,7 +1718,7 @@ export const countries: Country[] = [
     coordinates: [39.8, 15.2]
   },
   {
-    id: 'SO',
+    id: 'SOM',
     name: 'Somalia',
     nameJa: 'ソマリア',
     region: Region.Africa,
@@ -1729,7 +1729,7 @@ export const countries: Country[] = [
     coordinates: [46.2, 5.2]
   },
   {
-    id: 'MW',
+    id: 'MWI',
     name: 'Malawi',
     nameJa: 'マラウイ',
     region: Region.Africa,
@@ -1740,7 +1740,7 @@ export const countries: Country[] = [
     coordinates: [34.3, -13.3]
   },
   {
-    id: 'MR',
+    id: 'MRT',
     name: 'Mauritania',
     nameJa: 'モーリタニア',
     region: Region.Africa,
