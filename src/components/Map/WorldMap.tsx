@@ -1,7 +1,6 @@
 import { ComposableMap, Geographies, Geography, ZoomableGroup, Annotation } from 'react-simple-maps';
 import { useAppStore } from '../../store/appStore';
 import { countries } from '../../data/countries';
-import { regionColors } from '../../data/regions';
 
 const geoUrl =
   'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
@@ -30,7 +29,7 @@ export const WorldMap = ({ position, onPositionChange, showCountryNames = false 
 
     if (selectedCountry === countryId) return '#EF4444';
 
-    return regionColors[country.region] || '#6B7280';
+    return '#6B7280';
   };
 
   return (
