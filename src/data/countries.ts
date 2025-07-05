@@ -11,7 +11,7 @@ export const countries: Country[] = [
     flag: '🇬🇧',
     landscapeFeatures: '緑豊かな牧草地、石造りの建物、左側通行、白い道路標識',
     enabled: true,
-    coordinates: [-3.4, 55.4]
+    coordinates: [-3.4, 55.4],
   },
   {
     id: 'FRA',
@@ -22,7 +22,7 @@ export const countries: Country[] = [
     flag: '🇫🇷',
     landscapeFeatures: '黄色い道路標識、青い標識板、石造りの建物、右側通行',
     enabled: true,
-    coordinates: [2.2, 46.2]
+    coordinates: [2.2, 46.2],
   },
   {
     id: 'DEU',
@@ -31,9 +31,10 @@ export const countries: Country[] = [
     region: Region.Europe,
     languages: ['de'],
     flag: '🇩🇪',
-    landscapeFeatures: '青い道路標識、赤い屋根の建物、右側通行、速度制限なしの高速道路',
+    landscapeFeatures:
+      '青い道路標識、赤い屋根の建物、右側通行、速度制限なしの高速道路',
     enabled: true,
-    coordinates: [10.5, 51.2]
+    coordinates: [10.5, 51.2],
   },
   {
     id: 'ESP',
@@ -44,7 +45,7 @@ export const countries: Country[] = [
     flag: '🇪🇸',
     landscapeFeatures: '青い道路標識、オレンジ色の土、白い建物、右側通行',
     enabled: true,
-    coordinates: [-3.7, 40.4]
+    coordinates: [-3.7, 40.4],
   },
   {
     id: 'ITA',
@@ -55,7 +56,7 @@ export const countries: Country[] = [
     flag: '🇮🇹',
     landscapeFeatures: '青い道路標識、石造りの建物、右側通行、地中海性気候',
     enabled: true,
-    coordinates: [12.6, 41.9]
+    coordinates: [12.6, 41.9],
   },
   {
     id: 'PRT',
@@ -66,7 +67,7 @@ export const countries: Country[] = [
     flag: '🇵🇹',
     landscapeFeatures: '青い道路標識、白い建物、タイル張りの建物、右側通行',
     enabled: true,
-    coordinates: [-8.2, 39.4]
+    coordinates: [-8.2, 39.4],
   },
   {
     id: 'NLD',
@@ -77,7 +78,7 @@ export const countries: Country[] = [
     flag: '🇳🇱',
     landscapeFeatures: '平坦な地形、運河、風車、レンガ造りの建物、右側通行',
     enabled: true,
-    coordinates: [5.3, 52.1]
+    coordinates: [5.3, 52.1],
   },
   {
     id: 'BEL',
@@ -88,7 +89,7 @@ export const countries: Country[] = [
     flag: '🇧🇪',
     landscapeFeatures: '青い道路標識、レンガ造りの建物、右側通行、平坦な地形',
     enabled: true,
-    coordinates: [4.5, 50.5]
+    coordinates: [4.5, 50.5],
   },
   {
     id: 'CHE',
@@ -97,9 +98,10 @@ export const countries: Country[] = [
     region: Region.Europe,
     languages: ['de', 'fr', 'it'],
     flag: '🇨🇭',
-    landscapeFeatures: '山岳地帯、青い道路標識、木造建築、右側通行、高品質な道路',
+    landscapeFeatures:
+      '山岳地帯、青い道路標識、木造建築、右側通行、高品質な道路',
     enabled: true,
-    coordinates: [8.2, 46.8]
+    coordinates: [8.2, 46.8],
   },
   {
     id: 'AUT',
@@ -110,7 +112,7 @@ export const countries: Country[] = [
     flag: '🇦🇹',
     landscapeFeatures: '山岳地帯、青い道路標識、木造建築、右側通行',
     enabled: true,
-    coordinates: [14.6, 47.5]
+    coordinates: [14.6, 47.5],
   },
   {
     id: 'POL',
@@ -119,9 +121,10 @@ export const countries: Country[] = [
     region: Region.Europe,
     languages: ['pl'],
     flag: '🇵🇱',
-    landscapeFeatures: '青い道路標識、平坦な地形、右側通行、コンクリート造りの建物',
+    landscapeFeatures:
+      '青い道路標識、平坦な地形、右側通行、コンクリート造りの建物',
     enabled: true,
-    coordinates: [19.1, 51.9]
+    coordinates: [19.1, 51.9],
   },
   {
     id: 'CZE',
@@ -132,7 +135,7 @@ export const countries: Country[] = [
     flag: '🇨🇿',
     landscapeFeatures: '青い道路標識、丘陵地帯、右側通行、石造りの建物',
     enabled: true,
-    coordinates: [15.5, 49.8]
+    coordinates: [15.5, 49.8],
   },
   {
     id: 'SVK',
@@ -141,9 +144,10 @@ export const countries: Country[] = [
     region: Region.Europe,
     languages: ['sk'],
     flag: '🇸🇰',
-    landscapeFeatures: '青い道路標識、山岳地帯、右側通行、コンクリート造りの建物',
+    landscapeFeatures:
+      '青い道路標識、山岳地帯、右側通行、コンクリート造りの建物',
     enabled: true,
-    coordinates: [19.7, 48.7]
+    coordinates: [19.7, 48.7],
   },
   {
     id: 'HUN',
@@ -154,7 +158,7 @@ export const countries: Country[] = [
     flag: '🇭🇺',
     landscapeFeatures: '青い道路標識、平坦な地形、右側通行、独特な言語',
     enabled: true,
-    coordinates: [19.5, 47.2]
+    coordinates: [19.5, 47.2],
   },
   {
     id: 'ROU',
@@ -165,7 +169,7 @@ export const countries: Country[] = [
     flag: '🇷🇴',
     landscapeFeatures: '青い道路標識、カルパチア山脈、右側通行、正教会の建物',
     enabled: true,
-    coordinates: [24.9, 45.9]
+    coordinates: [24.9, 45.9],
   },
   {
     id: 'BGR',
@@ -176,7 +180,7 @@ export const countries: Country[] = [
     flag: '🇧🇬',
     landscapeFeatures: 'キリル文字、青い道路標識、山岳地帯、右側通行',
     enabled: true,
-    coordinates: [25.5, 42.7]
+    coordinates: [25.5, 42.7],
   },
   {
     id: 'GRC',
@@ -187,7 +191,7 @@ export const countries: Country[] = [
     flag: '🇬🇷',
     landscapeFeatures: 'ギリシャ文字、青い道路標識、地中海性気候、右側通行',
     enabled: true,
-    coordinates: [21.8, 39.1]
+    coordinates: [21.8, 39.1],
   },
   {
     id: 'SRB',
@@ -198,7 +202,7 @@ export const countries: Country[] = [
     flag: '🇷🇸',
     landscapeFeatures: 'キリル文字、青い道路標識、山岳地帯、右側通行',
     enabled: true,
-    coordinates: [21.0, 44.0]
+    coordinates: [21.0, 44.0],
   },
   {
     id: 'HRV',
@@ -209,7 +213,7 @@ export const countries: Country[] = [
     flag: '🇭🇷',
     landscapeFeatures: '青い道路標識、アドリア海沿岸、右側通行、石造りの建物',
     enabled: true,
-    coordinates: [15.2, 45.1]
+    coordinates: [15.2, 45.1],
   },
   {
     id: 'SVN',
@@ -220,7 +224,7 @@ export const countries: Country[] = [
     flag: '🇸🇮',
     landscapeFeatures: '青い道路標識、アルプス山脈、右側通行、緑豊かな自然',
     enabled: true,
-    coordinates: [14.9, 46.2]
+    coordinates: [14.9, 46.2],
   },
   {
     id: 'BIH',
@@ -230,8 +234,8 @@ export const countries: Country[] = [
     languages: ['bs', 'hr', 'sr'],
     flag: '🇧🇦',
     landscapeFeatures: '青い道路標識、山岳地帯、右側通行、混合文化の建物',
-    enabled: true,
-    coordinates: [17.7, 43.9]
+    enabled: false,
+    coordinates: [17.7, 43.9],
   },
   {
     id: 'MKD',
@@ -242,7 +246,7 @@ export const countries: Country[] = [
     flag: '🇲🇰',
     landscapeFeatures: 'キリル文字、青い道路標識、山岳地帯、右側通行',
     enabled: true,
-    coordinates: [21.7, 41.6]
+    coordinates: [21.7, 41.6],
   },
   {
     id: 'ALB',
@@ -253,7 +257,7 @@ export const countries: Country[] = [
     flag: '🇦🇱',
     landscapeFeatures: '青い道路標識、山岳地帯、右側通行、地中海性気候',
     enabled: true,
-    coordinates: [20.2, 41.2]
+    coordinates: [20.2, 41.2],
   },
   {
     id: 'MNE',
@@ -264,7 +268,7 @@ export const countries: Country[] = [
     flag: '🇲🇪',
     landscapeFeatures: '青い道路標識、山岳地帯、右側通行、アドリア海沿岸',
     enabled: true,
-    coordinates: [19.3, 42.7]
+    coordinates: [19.3, 42.7],
   },
   {
     id: 'LVA',
@@ -275,7 +279,7 @@ export const countries: Country[] = [
     flag: '🇱🇻',
     landscapeFeatures: '青い道路標識、平坦な地形、右側通行、針葉樹林',
     enabled: true,
-    coordinates: [24.6, 56.9]
+    coordinates: [24.6, 56.9],
   },
   {
     id: 'LTU',
@@ -286,7 +290,7 @@ export const countries: Country[] = [
     flag: '🇱🇹',
     landscapeFeatures: '青い道路標識、平坦な地形、右側通行、針葉樹林',
     enabled: true,
-    coordinates: [23.9, 55.2]
+    coordinates: [23.9, 55.2],
   },
   {
     id: 'EST',
@@ -297,7 +301,7 @@ export const countries: Country[] = [
     flag: '🇪🇪',
     landscapeFeatures: '青い道路標識、平坦な地形、右側通行、針葉樹林',
     enabled: true,
-    coordinates: [25.0, 58.6]
+    coordinates: [25.0, 58.6],
   },
   {
     id: 'FIN',
@@ -308,7 +312,7 @@ export const countries: Country[] = [
     flag: '🇫🇮',
     landscapeFeatures: '青い道路標識、湖と森林、右側通行、北欧建築',
     enabled: true,
-    coordinates: [25.7, 61.9]
+    coordinates: [25.7, 61.9],
   },
   {
     id: 'SWE',
@@ -319,7 +323,7 @@ export const countries: Country[] = [
     flag: '🇸🇪',
     landscapeFeatures: '青い道路標識、針葉樹林、右側通行、北欧建築',
     enabled: true,
-    coordinates: [18.6, 60.1]
+    coordinates: [18.6, 60.1],
   },
   {
     id: 'NOR',
@@ -330,7 +334,7 @@ export const countries: Country[] = [
     flag: '🇳🇴',
     landscapeFeatures: '青い道路標識、フィヨルド、右側通行、北欧建築',
     enabled: true,
-    coordinates: [9.0, 60.5]
+    coordinates: [9.0, 60.5],
   },
   {
     id: 'DNK',
@@ -341,7 +345,7 @@ export const countries: Country[] = [
     flag: '🇩🇰',
     landscapeFeatures: '青い道路標識、平坦な地形、右側通行、風車',
     enabled: true,
-    coordinates: [9.5, 56.3]
+    coordinates: [9.5, 56.3],
   },
   {
     id: 'ISL',
@@ -352,7 +356,7 @@ export const countries: Country[] = [
     flag: '🇮🇸',
     landscapeFeatures: '青い道路標識、火山地形、右側通行、苔むした溶岩',
     enabled: true,
-    coordinates: [-19.0, 64.1]
+    coordinates: [-19.0, 64.1],
   },
   {
     id: 'IRL',
@@ -363,7 +367,7 @@ export const countries: Country[] = [
     flag: '🇮🇪',
     landscapeFeatures: '緑豊かな牧草地、石垣、左側通行、白い道路標識',
     enabled: true,
-    coordinates: [-8.2, 53.4]
+    coordinates: [-8.2, 53.4],
   },
   {
     id: 'RUS',
@@ -374,7 +378,7 @@ export const countries: Country[] = [
     flag: '🇷🇺',
     landscapeFeatures: 'キリル文字、青い道路標識、針葉樹林、右側通行',
     enabled: true,
-    coordinates: [105.3, 61.5]
+    coordinates: [105.3, 61.5],
   },
   {
     id: 'UKR',
@@ -385,7 +389,7 @@ export const countries: Country[] = [
     flag: '🇺🇦',
     landscapeFeatures: 'キリル文字、青い道路標識、平坦な地形、右側通行',
     enabled: true,
-    coordinates: [31.2, 49.0]
+    coordinates: [31.2, 49.0],
   },
   {
     id: 'BLR',
@@ -395,8 +399,8 @@ export const countries: Country[] = [
     languages: ['be', 'ru'],
     flag: '🇧🇾',
     landscapeFeatures: 'キリル文字、青い道路標識、平坦な地形、右側通行',
-    enabled: true,
-    coordinates: [27.9, 53.7]
+    enabled: false,
+    coordinates: [27.9, 53.7],
   },
   {
     id: 'MDA',
@@ -406,8 +410,8 @@ export const countries: Country[] = [
     languages: ['ro'],
     flag: '🇲🇩',
     landscapeFeatures: '青い道路標識、丘陵地帯、右側通行、ブドウ畑',
-    enabled: true,
-    coordinates: [28.4, 47.4]
+    enabled: false,
+    coordinates: [28.4, 47.4],
   },
 
   // 北アメリカ
@@ -418,9 +422,10 @@ export const countries: Country[] = [
     region: Region.NorthAmerica,
     languages: ['en'],
     flag: '🇺🇸',
-    landscapeFeatures: '緑の道路標識、右側通行、多様な地形、アメリカンスタイルの建物',
+    landscapeFeatures:
+      '緑の道路標識、右側通行、多様な地形、アメリカンスタイルの建物',
     enabled: true,
-    coordinates: [-95.7, 37.1]
+    coordinates: [-95.7, 37.1],
   },
   {
     id: 'CAN',
@@ -431,18 +436,18 @@ export const countries: Country[] = [
     flag: '🇨🇦',
     landscapeFeatures: '緑の道路標識、右側通行、針葉樹林、英仏両語表記',
     enabled: true,
-    coordinates: [-106.3, 56.1]
+    coordinates: [-106.3, 56.1],
   },
   {
     id: 'MEX',
     name: 'Mexico',
     nameJa: 'メキシコ',
-    region: Region.NorthAmerica,
+    region: Region.CentralAmericaCaribbean,
     languages: ['es'],
     flag: '🇲🇽',
     landscapeFeatures: '緑の道路標識、右側通行、乾燥地帯、スペイン語表記',
     enabled: true,
-    coordinates: [-102.6, 23.6]
+    coordinates: [-102.6, 23.6],
   },
 
   // 南アメリカ
@@ -455,7 +460,7 @@ export const countries: Country[] = [
     flag: '🇧🇷',
     landscapeFeatures: '緑の道路標識、右側通行、熱帯雨林、ポルトガル語表記',
     enabled: true,
-    coordinates: [-51.9, -14.2]
+    coordinates: [-51.9, -14.2],
   },
   {
     id: 'ARG',
@@ -466,7 +471,7 @@ export const countries: Country[] = [
     flag: '🇦🇷',
     landscapeFeatures: '緑の道路標識、右側通行、パンパス、スペイン語表記',
     enabled: true,
-    coordinates: [-63.6, -38.4]
+    coordinates: [-63.6, -38.4],
   },
   {
     id: 'COL',
@@ -477,7 +482,7 @@ export const countries: Country[] = [
     flag: '🇨🇴',
     landscapeFeatures: '緑の道路標識、右側通行、山岳地帯、スペイン語表記',
     enabled: true,
-    coordinates: [-74.3, 4.6]
+    coordinates: [-74.3, 4.6],
   },
   {
     id: 'PER',
@@ -488,7 +493,7 @@ export const countries: Country[] = [
     flag: '🇵🇪',
     landscapeFeatures: '緑の道路標識、右側通行、アンデス山脈、スペイン語表記',
     enabled: true,
-    coordinates: [-75.0, -9.2]
+    coordinates: [-75.0, -9.2],
   },
   {
     id: 'CHL',
@@ -499,7 +504,7 @@ export const countries: Country[] = [
     flag: '🇨🇱',
     landscapeFeatures: '緑の道路標識、右側通行、細長い国土、スペイン語表記',
     enabled: true,
-    coordinates: [-71.5, -35.7]
+    coordinates: [-71.5, -35.7],
   },
   {
     id: 'ECU',
@@ -510,7 +515,7 @@ export const countries: Country[] = [
     flag: '🇪🇨',
     landscapeFeatures: '緑の道路標識、右側通行、赤道直下、スペイン語表記',
     enabled: true,
-    coordinates: [-78.2, -1.8]
+    coordinates: [-78.2, -1.8],
   },
   {
     id: 'URY',
@@ -521,7 +526,7 @@ export const countries: Country[] = [
     flag: '🇺🇾',
     landscapeFeatures: '緑の道路標識、右側通行、平坦な地形、スペイン語表記',
     enabled: true,
-    coordinates: [-55.8, -32.5]
+    coordinates: [-55.8, -32.5],
   },
   {
     id: 'BOL',
@@ -532,7 +537,136 @@ export const countries: Country[] = [
     flag: '🇧🇴',
     landscapeFeatures: '緑の道路標識、右側通行、高原地帯、スペイン語表記',
     enabled: true,
-    coordinates: [-63.6, -16.3]
+    coordinates: [-63.6, -16.3],
+  },
+
+  // 中央アメリカ・カリブ海
+  {
+    id: 'GTM',
+    name: 'Guatemala',
+    nameJa: 'グアテマラ',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['es'],
+    flag: '🇬🇹',
+    landscapeFeatures: '緑の道路標識、右側通行、山岳地帯、スペイン語表記',
+    enabled: true,
+    coordinates: [-90.2, 15.8],
+  },
+  {
+    id: 'PAN',
+    name: 'Panama',
+    nameJa: 'パナマ',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['es'],
+    flag: '🇵🇦',
+    landscapeFeatures: '緑の道路標識、右側通行、熱帯気候、スペイン語表記',
+    enabled: true,
+    coordinates: [-80.8, 8.5],
+  },
+  {
+    id: 'DOM',
+    name: 'Dominican Republic',
+    nameJa: 'ドミニカ共和国',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['es'],
+    flag: '🇩🇴',
+    landscapeFeatures: '緑の道路標識、右側通行、島国、スペイン語表記',
+    enabled: true,
+    coordinates: [-70.2, 18.7],
+  },
+  {
+    id: 'PRI',
+    name: 'Puerto Rico',
+    nameJa: 'プエルトリコ',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['es', 'en'],
+    flag: '🇵🇷',
+    landscapeFeatures: '緑の道路標識、右側通行、島国、スペイン語・英語表記',
+    enabled: true,
+    coordinates: [-66.6, 18.2],
+  },
+  {
+    id: 'BMU',
+    name: 'Bermuda',
+    nameJa: 'バミューダ',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['en'],
+    flag: '🇧🇲',
+    landscapeFeatures: '青い道路標識、左側通行、島国、英語表記',
+    enabled: true,
+    coordinates: [-64.8, 32.3],
+  },
+  {
+    id: 'VIR',
+    name: 'U.S. Virgin Islands',
+    nameJa: 'アメリカ領ヴァージン諸島',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['en'],
+    flag: '🇻🇮',
+    landscapeFeatures: '緑の道路標識、左側通行、島国、英語表記',
+    enabled: true,
+    coordinates: [-64.9, 18.3],
+  },
+  {
+    id: 'CUW',
+    name: 'Curaçao',
+    nameJa: 'キュラソー',
+    region: Region.CentralAmericaCaribbean,
+    languages: ['nl', 'es', 'en'],
+    flag: '🇨🇼',
+    landscapeFeatures:
+      '青い道路標識、右側通行、島国、オランダ語・スペイン語・英語表記',
+    enabled: true,
+    coordinates: [-69.0, 12.2],
+  },
+
+  // オセアニア・太平洋地域に追加
+  {
+    id: 'CXR',
+    name: 'Christmas Island',
+    nameJa: 'クリスマス島',
+    region: Region.Oceania,
+    languages: ['en'],
+    flag: '🇨🇽',
+    landscapeFeatures: '青い道路標識、左側通行、島国、英語表記',
+    enabled: true,
+    coordinates: [105.7, -10.5],
+  },
+  {
+    id: 'UMI',
+    name: 'Midway Atoll',
+    nameJa: 'ミッドウェー島',
+    region: Region.Oceania,
+    languages: ['en'],
+    flag: '🇺🇲',
+    landscapeFeatures: '緑の道路標識、右側通行、島国、英語表記',
+    enabled: true,
+    coordinates: [-177.4, 28.2],
+  },
+
+  // 東アジアに追加
+  {
+    id: 'HKG',
+    name: 'Hong Kong',
+    nameJa: '香港',
+    region: Region.EastAsia,
+    languages: ['zh', 'en'],
+    flag: '🇭🇰',
+    landscapeFeatures: '青い道路標識、左側通行、都市国家、中国語・英語表記',
+    enabled: true,
+    coordinates: [114.2, 22.4],
+  },
+  {
+    id: 'MAC',
+    name: 'Macau',
+    nameJa: '澳門',
+    region: Region.EastAsia,
+    languages: ['zh', 'pt'],
+    flag: '🇲🇴',
+    landscapeFeatures:
+      '青い道路標識、左側通行、都市国家、中国語・ポルトガル語表記',
+    enabled: true,
+    coordinates: [113.5, 22.2],
   },
 
   // アジア
@@ -545,7 +679,7 @@ export const countries: Country[] = [
     flag: '🇯🇵',
     landscapeFeatures: '青い道路標識、左側通行、山岳地帯、日本語表記',
     enabled: true,
-    coordinates: [138.2, 36.2]
+    coordinates: [138.2, 36.2],
   },
   {
     id: 'KOR',
@@ -556,7 +690,7 @@ export const countries: Country[] = [
     flag: '🇰🇷',
     landscapeFeatures: '青い道路標識、右側通行、山岳地帯、ハングル表記',
     enabled: true,
-    coordinates: [127.8, 35.9]
+    coordinates: [127.8, 35.9],
   },
   {
     id: 'CHN',
@@ -566,8 +700,8 @@ export const countries: Country[] = [
     languages: ['zh'],
     flag: '🇨🇳',
     landscapeFeatures: '青い道路標識、右側通行、多様な地形、中国語表記',
-    enabled: true,
-    coordinates: [104.2, 35.9]
+    enabled: false,
+    coordinates: [104.2, 35.9],
   },
   {
     id: 'TWN',
@@ -578,7 +712,7 @@ export const countries: Country[] = [
     flag: '🇹🇼',
     landscapeFeatures: '青い道路標識、右側通行、山岳地帯、繁体中国語表記',
     enabled: true,
-    coordinates: [120.9, 23.7]
+    coordinates: [120.9, 23.7],
   },
   {
     id: 'MNG',
@@ -589,7 +723,7 @@ export const countries: Country[] = [
     flag: '🇲🇳',
     landscapeFeatures: '青い道路標識、右側通行、草原地帯、モンゴル語表記',
     enabled: true,
-    coordinates: [103.8, 46.9]
+    coordinates: [103.8, 46.9],
   },
   {
     id: 'THA',
@@ -600,7 +734,7 @@ export const countries: Country[] = [
     flag: '🇹🇭',
     landscapeFeatures: '青い道路標識、左側通行、熱帯気候、タイ語表記',
     enabled: true,
-    coordinates: [100.9, 15.9]
+    coordinates: [100.9, 15.9],
   },
   {
     id: 'VNM',
@@ -611,7 +745,7 @@ export const countries: Country[] = [
     flag: '🇻🇳',
     landscapeFeatures: '青い道路標識、右側通行、熱帯気候、ベトナム語表記',
     enabled: true,
-    coordinates: [108.3, 14.1]
+    coordinates: [108.3, 14.1],
   },
   {
     id: 'KHM',
@@ -622,7 +756,7 @@ export const countries: Country[] = [
     flag: '🇰🇭',
     landscapeFeatures: '青い道路標識、右側通行、熱帯気候、クメール語表記',
     enabled: true,
-    coordinates: [104.9, 12.6]
+    coordinates: [104.9, 12.6],
   },
   {
     id: 'LAO',
@@ -633,7 +767,7 @@ export const countries: Country[] = [
     flag: '🇱🇦',
     landscapeFeatures: '青い道路標識、右側通行、山岳地帯、ラオ語表記',
     enabled: true,
-    coordinates: [102.5, 19.9]
+    coordinates: [102.5, 19.9],
   },
   {
     id: 'MMR',
@@ -643,8 +777,8 @@ export const countries: Country[] = [
     languages: ['my'],
     flag: '🇲🇲',
     landscapeFeatures: '青い道路標識、右側通行、熱帯気候、ミャンマー語表記',
-    enabled: true,
-    coordinates: [95.9, 21.9]
+    enabled: false,
+    coordinates: [95.9, 21.9],
   },
   {
     id: 'MYS',
@@ -655,7 +789,7 @@ export const countries: Country[] = [
     flag: '🇲🇾',
     landscapeFeatures: '青い道路標識、左側通行、熱帯気候、多言語表記',
     enabled: true,
-    coordinates: [101.9, 4.2]
+    coordinates: [101.9, 4.2],
   },
   {
     id: 'SGP',
@@ -666,7 +800,7 @@ export const countries: Country[] = [
     flag: '🇸🇬',
     landscapeFeatures: '青い道路標識、左側通行、都市国家、多言語表記',
     enabled: true,
-    coordinates: [103.8, 1.4]
+    coordinates: [103.8, 1.4],
   },
   {
     id: 'IDN',
@@ -677,7 +811,7 @@ export const countries: Country[] = [
     flag: '🇮🇩',
     landscapeFeatures: '青い道路標識、左側通行、熱帯気候、インドネシア語表記',
     enabled: true,
-    coordinates: [113.9, -0.8]
+    coordinates: [113.9, -0.8],
   },
   {
     id: 'PHL',
@@ -688,7 +822,7 @@ export const countries: Country[] = [
     flag: '🇵🇭',
     landscapeFeatures: '青い道路標識、右側通行、島嶼国、英語・フィリピン語表記',
     enabled: true,
-    coordinates: [121.8, 12.9]
+    coordinates: [121.8, 12.9],
   },
   {
     id: 'BRN',
@@ -698,8 +832,8 @@ export const countries: Country[] = [
     languages: ['ms', 'en'],
     flag: '🇧🇳',
     landscapeFeatures: '青い道路標識、左側通行、熱帯気候、マレー語・英語表記',
-    enabled: true,
-    coordinates: [114.7, 4.5]
+    enabled: false,
+    coordinates: [114.7, 4.5],
   },
   {
     id: 'IND',
@@ -710,7 +844,7 @@ export const countries: Country[] = [
     flag: '🇮🇳',
     landscapeFeatures: '青い道路標識、左側通行、多様な地形、多言語表記',
     enabled: true,
-    coordinates: [77.2, 20.6]
+    coordinates: [77.2, 20.6],
   },
   {
     id: 'PAK',
@@ -719,9 +853,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['ur', 'en'],
     flag: '🇵🇰',
-    landscapeFeatures: '青い道路標識、左側通行、山岳地帯、ウルドゥー語・英語表記',
+    landscapeFeatures:
+      '青い道路標識、左側通行、山岳地帯、ウルドゥー語・英語表記',
     enabled: true,
-    coordinates: [69.3, 30.4]
+    coordinates: [69.3, 30.4],
   },
   {
     id: 'BGD',
@@ -730,9 +865,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['bn', 'en'],
     flag: '🇧🇩',
-    landscapeFeatures: '青い道路標識、左側通行、平坦な地形、ベンガル語・英語表記',
+    landscapeFeatures:
+      '青い道路標識、左側通行、平坦な地形、ベンガル語・英語表記',
     enabled: true,
-    coordinates: [90.4, 23.7]
+    coordinates: [90.4, 23.7],
   },
   {
     id: 'LKA',
@@ -743,7 +879,7 @@ export const countries: Country[] = [
     flag: '🇱🇰',
     landscapeFeatures: '青い道路標識、左側通行、島国、多言語表記',
     enabled: true,
-    coordinates: [80.8, 7.9]
+    coordinates: [80.8, 7.9],
   },
   {
     id: 'NPL',
@@ -753,8 +889,8 @@ export const countries: Country[] = [
     languages: ['ne', 'en'],
     flag: '🇳🇵',
     landscapeFeatures: '青い道路標識、左側通行、ヒマラヤ山脈、ネパール語表記',
-    enabled: true,
-    coordinates: [84.1, 28.4]
+    enabled: false,
+    coordinates: [84.1, 28.4],
   },
   {
     id: 'BTN',
@@ -765,7 +901,7 @@ export const countries: Country[] = [
     flag: '🇧🇹',
     landscapeFeatures: '青い道路標識、左側通行、ヒマラヤ山脈、ゾンカ語表記',
     enabled: true,
-    coordinates: [90.4, 27.5]
+    coordinates: [90.4, 27.5],
   },
   {
     id: 'AFG',
@@ -774,9 +910,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['ps', 'fa'],
     flag: '🇦🇫',
-    landscapeFeatures: '青い道路標識、右側通行、山岳地帯、ペルシア語・パシュトゥー語表記',
-    enabled: true,
-    coordinates: [67.7, 33.9]
+    landscapeFeatures:
+      '青い道路標識、右側通行、山岳地帯、ペルシア語・パシュトゥー語表記',
+    enabled: false,
+    coordinates: [67.7, 33.9],
   },
   {
     id: 'KAZ',
@@ -785,9 +922,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['kk', 'ru'],
     flag: '🇰🇿',
-    landscapeFeatures: '青い道路標識、右側通行、草原地帯、カザフ語・ロシア語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、草原地帯、カザフ語・ロシア語表記',
     enabled: true,
-    coordinates: [66.9, 48.0]
+    coordinates: [66.9, 48.0],
   },
   {
     id: 'UZB',
@@ -796,9 +934,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['uz', 'ru'],
     flag: '🇺🇿',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、ウズベク語・ロシア語表記',
-    enabled: true,
-    coordinates: [64.6, 41.4]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、ウズベク語・ロシア語表記',
+    enabled: false,
+    coordinates: [64.6, 41.4],
   },
   {
     id: 'KGZ',
@@ -807,9 +946,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['ky', 'ru'],
     flag: '🇰🇬',
-    landscapeFeatures: '青い道路標識、右側通行、山岳地帯、キルギス語・ロシア語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、山岳地帯、キルギス語・ロシア語表記',
     enabled: true,
-    coordinates: [74.8, 41.2]
+    coordinates: [74.8, 41.2],
   },
   {
     id: 'TJK',
@@ -818,9 +958,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['tg', 'ru'],
     flag: '🇹🇯',
-    landscapeFeatures: '青い道路標識、右側通行、山岳地帯、タジク語・ロシア語表記',
-    enabled: true,
-    coordinates: [71.3, 38.9]
+    landscapeFeatures:
+      '青い道路標識、右側通行、山岳地帯、タジク語・ロシア語表記',
+    enabled: false,
+    coordinates: [71.3, 38.9],
   },
   {
     id: 'TKM',
@@ -829,9 +970,10 @@ export const countries: Country[] = [
     region: Region.CentralSouthAsia,
     languages: ['tk', 'ru'],
     flag: '🇹🇲',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、トルクメン語・ロシア語表記',
-    enabled: true,
-    coordinates: [59.6, 38.9]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、トルクメン語・ロシア語表記',
+    enabled: false,
+    coordinates: [59.6, 38.9],
   },
   {
     id: 'TUR',
@@ -842,7 +984,7 @@ export const countries: Country[] = [
     flag: '🇹🇷',
     landscapeFeatures: '青い道路標識、右側通行、多様な地形、トルコ語表記',
     enabled: true,
-    coordinates: [35.2, 38.9]
+    coordinates: [35.2, 38.9],
   },
   {
     id: 'IRN',
@@ -852,8 +994,8 @@ export const countries: Country[] = [
     languages: ['fa'],
     flag: '🇮🇷',
     landscapeFeatures: '青い道路標識、右側通行、砂漠・山岳地帯、ペルシア語表記',
-    enabled: true,
-    coordinates: [53.7, 32.4]
+    enabled: false,
+    coordinates: [53.7, 32.4],
   },
   {
     id: 'IRQ',
@@ -862,9 +1004,10 @@ export const countries: Country[] = [
     region: Region.WestAsia,
     languages: ['ar', 'ku'],
     flag: '🇮🇶',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・クルド語表記',
-    enabled: true,
-    coordinates: [43.7, 33.2]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、アラビア語・クルド語表記',
+    enabled: false,
+    coordinates: [43.7, 33.2],
   },
   {
     id: 'SYR',
@@ -874,8 +1017,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇸🇾',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [38.9, 34.8]
+    enabled: false,
+    coordinates: [38.9, 34.8],
   },
   {
     id: 'LBN',
@@ -884,9 +1027,10 @@ export const countries: Country[] = [
     region: Region.WestAsia,
     languages: ['ar', 'fr'],
     flag: '🇱🇧',
-    landscapeFeatures: '青い道路標識、右側通行、山岳地帯、アラビア語・フランス語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、山岳地帯、アラビア語・フランス語表記',
     enabled: true,
-    coordinates: [35.9, 33.9]
+    coordinates: [35.9, 33.9],
   },
   {
     id: 'JOR',
@@ -897,7 +1041,7 @@ export const countries: Country[] = [
     flag: '🇯🇴',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
     enabled: true,
-    coordinates: [36.2, 30.6]
+    coordinates: [36.2, 30.6],
   },
   {
     id: 'SAU',
@@ -907,8 +1051,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇸🇦',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [45.1, 23.9]
+    enabled: false,
+    coordinates: [45.1, 23.9],
   },
   {
     id: 'ARE',
@@ -919,7 +1063,7 @@ export const countries: Country[] = [
     flag: '🇦🇪',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・英語表記',
     enabled: true,
-    coordinates: [54.4, 24.3]
+    coordinates: [54.4, 24.3],
   },
   {
     id: 'KWT',
@@ -929,8 +1073,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇰🇼',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [47.5, 29.3]
+    enabled: false,
+    coordinates: [47.5, 29.3],
   },
   {
     id: 'QAT',
@@ -941,7 +1085,7 @@ export const countries: Country[] = [
     flag: '🇶🇦',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
     enabled: true,
-    coordinates: [51.2, 25.4]
+    coordinates: [51.2, 25.4],
   },
   {
     id: 'BHR',
@@ -951,8 +1095,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇧🇭',
     landscapeFeatures: '青い道路標識、右側通行、島国、アラビア語表記',
-    enabled: true,
-    coordinates: [50.6, 25.9]
+    enabled: false,
+    coordinates: [50.6, 25.9],
   },
   {
     id: 'OMN',
@@ -963,7 +1107,7 @@ export const countries: Country[] = [
     flag: '🇴🇲',
     landscapeFeatures: '青い道路標識、右側通行、砂漠・山岳地帯、アラビア語表記',
     enabled: true,
-    coordinates: [55.9, 21.5]
+    coordinates: [55.9, 21.5],
   },
   {
     id: 'YEM',
@@ -973,8 +1117,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇾🇪',
     landscapeFeatures: '青い道路標識、右側通行、山岳・砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [48.5, 15.6]
+    enabled: false,
+    coordinates: [48.5, 15.6],
   },
   {
     id: 'ISR',
@@ -983,9 +1127,10 @@ export const countries: Country[] = [
     region: Region.WestAsia,
     languages: ['he', 'ar'],
     flag: '🇮🇱',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠・地中海性気候、ヘブライ語・アラビア語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠・地中海性気候、ヘブライ語・アラビア語表記',
     enabled: true,
-    coordinates: [34.9, 31.0]
+    coordinates: [34.9, 31.0],
   },
   {
     id: 'PSE',
@@ -996,7 +1141,7 @@ export const countries: Country[] = [
     flag: '🇵🇸',
     landscapeFeatures: '青い道路標識、右側通行、地中海性気候、アラビア語表記',
     enabled: true,
-    coordinates: [35.2, 31.9]
+    coordinates: [35.2, 31.9],
   },
   {
     id: 'CYP',
@@ -1005,9 +1150,10 @@ export const countries: Country[] = [
     region: Region.WestAsia,
     languages: ['el', 'tr'],
     flag: '🇨🇾',
-    landscapeFeatures: '青い道路標識、左側通行、地中海性気候、ギリシャ語・トルコ語表記',
-    enabled: true,
-    coordinates: [33.4, 35.1]
+    landscapeFeatures:
+      '青い道路標識、左側通行、地中海性気候、ギリシャ語・トルコ語表記',
+    enabled: false,
+    coordinates: [33.4, 35.1],
   },
   {
     id: 'GEO',
@@ -1017,8 +1163,8 @@ export const countries: Country[] = [
     languages: ['ka'],
     flag: '🇬🇪',
     landscapeFeatures: '青い道路標識、右側通行、山岳地帯、ジョージア語表記',
-    enabled: true,
-    coordinates: [43.4, 42.3]
+    enabled: false,
+    coordinates: [43.4, 42.3],
   },
   {
     id: 'ARM',
@@ -1028,8 +1174,8 @@ export const countries: Country[] = [
     languages: ['hy'],
     flag: '🇦🇲',
     landscapeFeatures: '青い道路標識、右側通行、山岳地帯、アルメニア語表記',
-    enabled: true,
-    coordinates: [45.0, 40.1]
+    enabled: false,
+    coordinates: [45.0, 40.1],
   },
   {
     id: 'AZE',
@@ -1038,9 +1184,10 @@ export const countries: Country[] = [
     region: Region.WestAsia,
     languages: ['az'],
     flag: '🇦🇿',
-    landscapeFeatures: '青い道路標識、右側通行、カスピ海沿岸、アゼルバイジャン語表記',
-    enabled: true,
-    coordinates: [47.6, 40.1]
+    landscapeFeatures:
+      '青い道路標識、右側通行、カスピ海沿岸、アゼルバイジャン語表記',
+    enabled: false,
+    coordinates: [47.6, 40.1],
   },
 
   // オセアニア
@@ -1053,7 +1200,7 @@ export const countries: Country[] = [
     flag: '🇦🇺',
     landscapeFeatures: '青い道路標識、左側通行、乾燥地帯、英語表記',
     enabled: true,
-    coordinates: [133.8, -25.3]
+    coordinates: [133.8, -25.3],
   },
   {
     id: 'NZL',
@@ -1064,7 +1211,7 @@ export const countries: Country[] = [
     flag: '🇳🇿',
     landscapeFeatures: '青い道路標識、左側通行、緑豊かな自然、英語表記',
     enabled: true,
-    coordinates: [174.9, -40.9]
+    coordinates: [174.9, -40.9],
   },
   {
     id: 'PNG',
@@ -1074,8 +1221,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇵🇬',
     landscapeFeatures: '青い道路標識、左側通行、熱帯雨林、英語表記',
-    enabled: true,
-    coordinates: [143.9, -6.3]
+    enabled: false,
+    coordinates: [143.9, -6.3],
   },
   {
     id: 'FJI',
@@ -1085,8 +1232,8 @@ export const countries: Country[] = [
     languages: ['en', 'fj', 'hi'],
     flag: '🇫🇯',
     landscapeFeatures: '青い道路標識、左側通行、島嶼国、多言語表記',
-    enabled: true,
-    coordinates: [178.1, -16.6]
+    enabled: false,
+    coordinates: [178.1, -16.6],
   },
   {
     id: 'SLB',
@@ -1096,8 +1243,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇸🇧',
     landscapeFeatures: '青い道路標識、左側通行、島嶼国、英語表記',
-    enabled: true,
-    coordinates: [160.2, -9.6]
+    enabled: false,
+    coordinates: [160.2, -9.6],
   },
   {
     id: 'VUT',
@@ -1107,8 +1254,8 @@ export const countries: Country[] = [
     languages: ['en', 'fr', 'bi'],
     flag: '🇻🇺',
     landscapeFeatures: '青い道路標識、右側通行、火山島、多言語表記',
-    enabled: true,
-    coordinates: [166.9, -15.4]
+    enabled: false,
+    coordinates: [166.9, -15.4],
   },
   {
     id: 'NCL',
@@ -1118,8 +1265,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇳🇨',
     landscapeFeatures: '青い道路標識、右側通行、島嶼、フランス語表記',
-    enabled: true,
-    coordinates: [165.6, -20.9]
+    enabled: false,
+    coordinates: [165.6, -20.9],
   },
   {
     id: 'PYF',
@@ -1129,8 +1276,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇵🇫',
     landscapeFeatures: '青い道路標識、右側通行、島嶼、フランス語表記',
-    enabled: true,
-    coordinates: [-149.4, -17.7]
+    enabled: false,
+    coordinates: [-149.4, -17.7],
   },
   {
     id: 'ASM',
@@ -1141,7 +1288,7 @@ export const countries: Country[] = [
     flag: '🇦🇸',
     landscapeFeatures: '青い道路標識、右側通行、島嶼、英語・サモア語表記',
     enabled: true,
-    coordinates: [-170.1, -14.3]
+    coordinates: [-170.1, -14.3],
   },
   {
     id: 'GUM',
@@ -1152,7 +1299,7 @@ export const countries: Country[] = [
     flag: '🇬🇺',
     landscapeFeatures: '青い道路標識、右側通行、島嶼、英語・チャモロ語表記',
     enabled: true,
-    coordinates: [144.8, 13.4]
+    coordinates: [144.8, 13.4],
   },
   {
     id: 'MNP',
@@ -1163,7 +1310,7 @@ export const countries: Country[] = [
     flag: '🇲🇵',
     landscapeFeatures: '青い道路標識、右側通行、島嶼、英語・チャモロ語表記',
     enabled: true,
-    coordinates: [145.4, 17.3]
+    coordinates: [145.4, 17.3],
   },
 
   // アフリカ
@@ -1176,7 +1323,7 @@ export const countries: Country[] = [
     flag: '🇿🇦',
     landscapeFeatures: '青い道路標識、左側通行、多様な地形、多言語表記',
     enabled: true,
-    coordinates: [22.9, -30.6]
+    coordinates: [22.9, -30.6],
   },
   {
     id: 'EGY',
@@ -1186,8 +1333,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇪🇬',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [30.8, 26.8]
+    enabled: false,
+    coordinates: [30.8, 26.8],
   },
   {
     id: 'MAR',
@@ -1196,9 +1343,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇲🇦',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠・山岳地帯、アラビア語・フランス語表記',
-    enabled: true,
-    coordinates: [-7.1, 31.8]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠・山岳地帯、アラビア語・フランス語表記',
+    enabled: false,
+    coordinates: [-7.1, 31.8],
   },
   {
     id: 'TUN',
@@ -1207,9 +1355,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇹🇳',
-    landscapeFeatures: '青い道路標識、右側通行、地中海性気候、アラビア語・フランス語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、地中海性気候、アラビア語・フランス語表記',
     enabled: true,
-    coordinates: [9.5, 34.0]
+    coordinates: [9.5, 34.0],
   },
   {
     id: 'DZA',
@@ -1218,9 +1367,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇩🇿',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
-    enabled: true,
-    coordinates: [1.7, 28.0]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
+    enabled: false,
+    coordinates: [1.7, 28.0],
   },
   {
     id: 'LBY',
@@ -1230,8 +1380,8 @@ export const countries: Country[] = [
     languages: ['ar'],
     flag: '🇱🇾',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語表記',
-    enabled: true,
-    coordinates: [17.2, 26.3]
+    enabled: false,
+    coordinates: [17.2, 26.3],
   },
   {
     id: 'SDN',
@@ -1241,8 +1391,8 @@ export const countries: Country[] = [
     languages: ['ar', 'en'],
     flag: '🇸🇩',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・英語表記',
-    enabled: true,
-    coordinates: [30.2, 12.9]
+    enabled: false,
+    coordinates: [30.2, 12.9],
   },
   {
     id: 'ETH',
@@ -1252,8 +1402,8 @@ export const countries: Country[] = [
     languages: ['am', 'en'],
     flag: '🇪🇹',
     landscapeFeatures: '青い道路標識、右側通行、高原地帯、アムハラ語・英語表記',
-    enabled: true,
-    coordinates: [40.5, 9.1]
+    enabled: false,
+    coordinates: [40.5, 9.1],
   },
   {
     id: 'KEN',
@@ -1264,7 +1414,7 @@ export const countries: Country[] = [
     flag: '🇰🇪',
     landscapeFeatures: '青い道路標識、左側通行、サバンナ、スワヒリ語・英語表記',
     enabled: true,
-    coordinates: [37.9, -0.0]
+    coordinates: [37.9, -0.0],
   },
   {
     id: 'TZA',
@@ -1274,8 +1424,8 @@ export const countries: Country[] = [
     languages: ['sw', 'en'],
     flag: '🇹🇿',
     landscapeFeatures: '青い道路標識、左側通行、サバンナ、スワヒリ語・英語表記',
-    enabled: true,
-    coordinates: [34.9, -6.4]
+    enabled: false,
+    coordinates: [34.9, -6.4],
   },
   {
     id: 'UGA',
@@ -1284,9 +1434,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['sw', 'en'],
     flag: '🇺🇬',
-    landscapeFeatures: '青い道路標識、左側通行、緑豊かな自然、スワヒリ語・英語表記',
+    landscapeFeatures:
+      '青い道路標識、左側通行、緑豊かな自然、スワヒリ語・英語表記',
     enabled: true,
-    coordinates: [32.3, 1.4]
+    coordinates: [32.3, 1.4],
   },
   {
     id: 'RWA',
@@ -1295,9 +1446,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['rw', 'en', 'fr'],
     flag: '🇷🇼',
-    landscapeFeatures: '青い道路標識、右側通行、丘陵地帯、ルワンダ語・英語・フランス語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、丘陵地帯、ルワンダ語・英語・フランス語表記',
     enabled: true,
-    coordinates: [30.0, -1.9]
+    coordinates: [30.0, -1.9],
   },
   {
     id: 'BDI',
@@ -1306,9 +1458,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['rn', 'fr', 'en'],
     flag: '🇧🇮',
-    landscapeFeatures: '青い道路標識、右側通行、丘陵地帯、ルンディ語・フランス語・英語表記',
-    enabled: true,
-    coordinates: [29.9, -3.4]
+    landscapeFeatures:
+      '青い道路標識、右側通行、丘陵地帯、ルンディ語・フランス語・英語表記',
+    enabled: false,
+    coordinates: [29.9, -3.4],
   },
   {
     id: 'COD',
@@ -1318,8 +1471,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇨🇩',
     landscapeFeatures: '青い道路標識、右側通行、熱帯雨林、フランス語表記',
-    enabled: true,
-    coordinates: [21.8, -4.0]
+    enabled: false,
+    coordinates: [21.8, -4.0],
   },
   {
     id: 'COG',
@@ -1329,8 +1482,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇨🇬',
     landscapeFeatures: '青い道路標識、右側通行、熱帯雨林、フランス語表記',
-    enabled: true,
-    coordinates: [15.8, -0.2]
+    enabled: false,
+    coordinates: [15.8, -0.2],
   },
   {
     id: 'CMR',
@@ -1340,8 +1493,8 @@ export const countries: Country[] = [
     languages: ['fr', 'en'],
     flag: '🇨🇲',
     landscapeFeatures: '青い道路標識、右側通行、熱帯気候、フランス語・英語表記',
-    enabled: true,
-    coordinates: [12.4, 7.4]
+    enabled: false,
+    coordinates: [12.4, 7.4],
   },
   {
     id: 'CAF',
@@ -1351,8 +1504,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇨🇫',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [20.9, 6.6]
+    enabled: false,
+    coordinates: [20.9, 6.6],
   },
   {
     id: 'TCD',
@@ -1361,9 +1514,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['fr', 'ar'],
     flag: '🇹🇩',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠・サバンナ、フランス語・アラビア語表記',
-    enabled: true,
-    coordinates: [18.7, 15.5]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠・サバンナ、フランス語・アラビア語表記',
+    enabled: false,
+    coordinates: [18.7, 15.5],
   },
   {
     id: 'NER',
@@ -1373,8 +1527,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇳🇪',
     landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、フランス語表記',
-    enabled: true,
-    coordinates: [8.1, 17.6]
+    enabled: false,
+    coordinates: [8.1, 17.6],
   },
   {
     id: 'MLI',
@@ -1384,8 +1538,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇲🇱',
     landscapeFeatures: '青い道路標識、右側通行、砂漠・サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [-3.0, 17.6]
+    enabled: false,
+    coordinates: [-3.0, 17.6],
   },
   {
     id: 'BFA',
@@ -1395,8 +1549,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇧🇫',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [-2.2, 12.2]
+    enabled: false,
+    coordinates: [-2.2, 12.2],
   },
   {
     id: 'SEN',
@@ -1407,7 +1561,7 @@ export const countries: Country[] = [
     flag: '🇸🇳',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
     enabled: true,
-    coordinates: [-14.5, 14.5]
+    coordinates: [-14.5, 14.5],
   },
   {
     id: 'GMB',
@@ -1417,8 +1571,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇬🇲',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、英語表記',
-    enabled: true,
-    coordinates: [-15.3, 13.4]
+    enabled: false,
+    coordinates: [-15.3, 13.4],
   },
   {
     id: 'GNB',
@@ -1428,8 +1582,8 @@ export const countries: Country[] = [
     languages: ['pt'],
     flag: '🇬🇼',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、ポルトガル語表記',
-    enabled: true,
-    coordinates: [-15.2, 11.8]
+    enabled: false,
+    coordinates: [-15.2, 11.8],
   },
   {
     id: 'GIN',
@@ -1439,8 +1593,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇬🇳',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [-9.7, 9.9]
+    enabled: false,
+    coordinates: [-9.7, 9.9],
   },
   {
     id: 'SLE',
@@ -1450,8 +1604,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇸🇱',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、英語表記',
-    enabled: true,
-    coordinates: [-11.8, 8.5]
+    enabled: false,
+    coordinates: [-11.8, 8.5],
   },
   {
     id: 'LBR',
@@ -1461,19 +1615,19 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇱🇷',
     landscapeFeatures: '青い道路標識、右側通行、熱帯雨林、英語表記',
-    enabled: true,
-    coordinates: [-9.4, 6.4]
+    enabled: false,
+    coordinates: [-9.4, 6.4],
   },
   {
     id: 'CIV',
-    name: 'Côte d\'Ivoire',
+    name: "Côte d'Ivoire",
     nameJa: 'コートジボワール',
     region: Region.Africa,
     languages: ['fr'],
     flag: '🇨🇮',
     landscapeFeatures: '青い道路標識、右側通行、熱帯気候、フランス語表記',
-    enabled: true,
-    coordinates: [-5.5, 7.5]
+    enabled: false,
+    coordinates: [-5.5, 7.5],
   },
   {
     id: 'GHA',
@@ -1484,7 +1638,7 @@ export const countries: Country[] = [
     flag: '🇬🇭',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、英語表記',
     enabled: true,
-    coordinates: [-1.0, 7.9]
+    coordinates: [-1.0, 7.9],
   },
   {
     id: 'TGO',
@@ -1494,8 +1648,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇹🇬',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [0.8, 8.6]
+    enabled: false,
+    coordinates: [0.8, 8.6],
   },
   {
     id: 'BEN',
@@ -1505,8 +1659,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇧🇯',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、フランス語表記',
-    enabled: true,
-    coordinates: [2.3, 9.3]
+    enabled: false,
+    coordinates: [2.3, 9.3],
   },
   {
     id: 'NGA',
@@ -1517,7 +1671,7 @@ export const countries: Country[] = [
     flag: '🇳🇬',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、英語表記',
     enabled: true,
-    coordinates: [8.7, 9.1]
+    coordinates: [8.7, 9.1],
   },
   {
     id: 'GAB',
@@ -1527,8 +1681,8 @@ export const countries: Country[] = [
     languages: ['fr'],
     flag: '🇬🇦',
     landscapeFeatures: '青い道路標識、右側通行、熱帯雨林、フランス語表記',
-    enabled: true,
-    coordinates: [11.6, -0.8]
+    enabled: false,
+    coordinates: [11.6, -0.8],
   },
   {
     id: 'GNQ',
@@ -1537,9 +1691,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['es', 'fr'],
     flag: '🇬🇶',
-    landscapeFeatures: '青い道路標識、右側通行、熱帯雨林、スペイン語・フランス語表記',
-    enabled: true,
-    coordinates: [10.3, 1.7]
+    landscapeFeatures:
+      '青い道路標識、右側通行、熱帯雨林、スペイン語・フランス語表記',
+    enabled: false,
+    coordinates: [10.3, 1.7],
   },
   {
     id: 'STP',
@@ -1549,8 +1704,8 @@ export const countries: Country[] = [
     languages: ['pt'],
     flag: '🇸🇹',
     landscapeFeatures: '青い道路標識、右側通行、島嶼国、ポルトガル語表記',
-    enabled: true,
-    coordinates: [6.6, 0.2]
+    enabled: false,
+    coordinates: [6.6, 0.2],
   },
   {
     id: 'AGO',
@@ -1560,8 +1715,8 @@ export const countries: Country[] = [
     languages: ['pt'],
     flag: '🇦🇴',
     landscapeFeatures: '青い道路標識、右側通行、サバンナ、ポルトガル語表記',
-    enabled: true,
-    coordinates: [17.9, -11.2]
+    enabled: false,
+    coordinates: [17.9, -11.2],
   },
   {
     id: 'ZMB',
@@ -1571,8 +1726,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇿🇲',
     landscapeFeatures: '青い道路標識、左側通行、サバンナ、英語表記',
-    enabled: true,
-    coordinates: [27.8, -13.1]
+    enabled: false,
+    coordinates: [27.8, -13.1],
   },
   {
     id: 'ZWE',
@@ -1582,8 +1737,8 @@ export const countries: Country[] = [
     languages: ['en'],
     flag: '🇿🇼',
     landscapeFeatures: '青い道路標識、左側通行、サバンナ、英語表記',
-    enabled: true,
-    coordinates: [29.2, -19.0]
+    enabled: false,
+    coordinates: [29.2, -19.0],
   },
   {
     id: 'BWA',
@@ -1592,9 +1747,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['en', 'tn'],
     flag: '🇧🇼',
-    landscapeFeatures: '青い道路標識、左側通行、砂漠・サバンナ、英語・ツワナ語表記',
+    landscapeFeatures:
+      '青い道路標識、左側通行、砂漠・サバンナ、英語・ツワナ語表記',
     enabled: true,
-    coordinates: [24.7, -22.3]
+    coordinates: [24.7, -22.3],
   },
   {
     id: 'NAM',
@@ -1603,9 +1759,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['en', 'af'],
     flag: '🇳🇦',
-    landscapeFeatures: '青い道路標識、左側通行、砂漠地帯、英語・アフリカーンス語表記',
+    landscapeFeatures:
+      '青い道路標識、左側通行、砂漠地帯、英語・アフリカーンス語表記',
     enabled: true,
-    coordinates: [18.5, -22.9]
+    coordinates: [18.5, -22.9],
   },
   {
     id: 'LSO',
@@ -1616,7 +1773,7 @@ export const countries: Country[] = [
     flag: '🇱🇸',
     landscapeFeatures: '青い道路標識、左側通行、山岳地帯、ソト語・英語表記',
     enabled: true,
-    coordinates: [28.2, -29.6]
+    coordinates: [28.2, -29.6],
   },
   {
     id: 'SWZ',
@@ -1627,7 +1784,7 @@ export const countries: Country[] = [
     flag: '🇸🇿',
     landscapeFeatures: '青い道路標識、左側通行、丘陵地帯、英語・スワジ語表記',
     enabled: true,
-    coordinates: [31.5, -26.5]
+    coordinates: [31.5, -26.5],
   },
   {
     id: 'MOZ',
@@ -1637,8 +1794,8 @@ export const countries: Country[] = [
     languages: ['pt'],
     flag: '🇲🇿',
     landscapeFeatures: '青い道路標識、左側通行、サバンナ、ポルトガル語表記',
-    enabled: true,
-    coordinates: [35.5, -18.7]
+    enabled: false,
+    coordinates: [35.5, -18.7],
   },
   {
     id: 'MDG',
@@ -1647,9 +1804,21 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['mg', 'fr'],
     flag: '🇲🇬',
-    landscapeFeatures: '青い道路標識、右側通行、島国、マダガスカル語・フランス語表記',
+    landscapeFeatures:
+      '青い道路標識、右側通行、島国、マダガスカル語・フランス語表記',
     enabled: true,
-    coordinates: [46.9, -18.8]
+    coordinates: [46.9, -18.8],
+  },
+  {
+    id: 'REU',
+    name: 'Réunion',
+    nameJa: 'レユニオン',
+    region: Region.Africa,
+    languages: ['fr'],
+    flag: '🇷🇪',
+    landscapeFeatures: '青い道路標識、右側通行、島国、フランス語表記',
+    enabled: true,
+    coordinates: [55.5, -21.1],
   },
   {
     id: 'MUS',
@@ -1659,8 +1828,8 @@ export const countries: Country[] = [
     languages: ['en', 'fr'],
     flag: '🇲🇺',
     landscapeFeatures: '青い道路標識、左側通行、島国、英語・フランス語表記',
-    enabled: true,
-    coordinates: [57.6, -20.3]
+    enabled: false,
+    coordinates: [57.6, -20.3],
   },
   {
     id: 'SYC',
@@ -1670,8 +1839,8 @@ export const countries: Country[] = [
     languages: ['en', 'fr'],
     flag: '🇸🇨',
     landscapeFeatures: '青い道路標識、左側通行、島国、英語・フランス語表記',
-    enabled: true,
-    coordinates: [55.5, -4.7]
+    enabled: false,
+    coordinates: [55.5, -4.7],
   },
   {
     id: 'COM',
@@ -1680,9 +1849,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇰🇲',
-    landscapeFeatures: '青い道路標識、右側通行、島国、アラビア語・フランス語表記',
-    enabled: true,
-    coordinates: [43.9, -11.9]
+    landscapeFeatures:
+      '青い道路標識、右側通行、島国、アラビア語・フランス語表記',
+    enabled: false,
+    coordinates: [43.9, -11.9],
   },
   {
     id: 'CPV',
@@ -1692,8 +1862,8 @@ export const countries: Country[] = [
     languages: ['pt'],
     flag: '🇨🇻',
     landscapeFeatures: '青い道路標識、右側通行、島国、ポルトガル語表記',
-    enabled: true,
-    coordinates: [-24.0, 16.0]
+    enabled: false,
+    coordinates: [-24.0, 16.0],
   },
   {
     id: 'DJI',
@@ -1702,9 +1872,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇩🇯',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
-    enabled: true,
-    coordinates: [42.6, 11.8]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
+    enabled: false,
+    coordinates: [42.6, 11.8],
   },
   {
     id: 'ERI',
@@ -1713,9 +1884,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ti', 'ar', 'en'],
     flag: '🇪🇷',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠・高原地帯、ティグリニャ語・アラビア語・英語表記',
-    enabled: true,
-    coordinates: [39.8, 15.2]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠・高原地帯、ティグリニャ語・アラビア語・英語表記',
+    enabled: false,
+    coordinates: [39.8, 15.2],
   },
   {
     id: 'SOM',
@@ -1724,9 +1896,10 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['so', 'ar'],
     flag: '🇸🇴',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、ソマリ語・アラビア語表記',
-    enabled: true,
-    coordinates: [46.2, 5.2]
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、ソマリ語・アラビア語表記',
+    enabled: false,
+    coordinates: [46.2, 5.2],
   },
   {
     id: 'MWI',
@@ -1736,8 +1909,8 @@ export const countries: Country[] = [
     languages: ['en', 'ny'],
     flag: '🇲🇼',
     landscapeFeatures: '青い道路標識、左側通行、湖沿い、英語・チェワ語表記',
-    enabled: true,
-    coordinates: [34.3, -13.3]
+    enabled: false,
+    coordinates: [34.3, -13.3],
   },
   {
     id: 'MRT',
@@ -1746,20 +1919,21 @@ export const countries: Country[] = [
     region: Region.Africa,
     languages: ['ar', 'fr'],
     flag: '🇲🇷',
-    landscapeFeatures: '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
-    enabled: true,
-    coordinates: [-10.9, 21.0]
-  }
+    landscapeFeatures:
+      '青い道路標識、右側通行、砂漠地帯、アラビア語・フランス語表記',
+    enabled: false,
+    coordinates: [-10.9, 21.0],
+  },
 ];
 
 export const getCountryById = (id: string): Country | undefined => {
-  return countries.find(country => country.id === id);
+  return countries.find((country) => country.id === id);
 };
 
 export const getCountriesByRegion = (region: Region): Country[] => {
-  return countries.filter(country => country.region === region);
+  return countries.filter((country) => country.region === region);
 };
 
 export const getEnabledCountries = (): Country[] => {
-  return countries.filter(country => country.enabled);
+  return countries.filter((country) => country.enabled);
 };
